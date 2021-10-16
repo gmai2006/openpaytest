@@ -16,6 +16,11 @@ npm start
 Generated UI components
 ![An overview](openpay1.png?raw=true "Title")
 
+Openpay entity relationship diagram - generated from the DB schema
+![Openpay entity relationship model](openpay2.png?raw=true "Title")
+
+A tabular view with test data of a table in openpay DB.  
+![A view of a table in openpay](openpay3.png?raw=true "Title")
 
 
   
