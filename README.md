@@ -13,6 +13,9 @@ cd ui
 npm install
 npm start
 
+Generated UI components
+![An overview](openpay1.png?raw=true "Title")
+
 
 
   
