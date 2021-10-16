@@ -11,7 +11,7 @@ All instructions should be run in a terminal
 ### Optional integration test
 ```gradle IntegrationTest
 
-#### Run the application
+### Run the application
 cd ui
 npm install
 npm start
