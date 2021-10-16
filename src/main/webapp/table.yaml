@@ -1,0 +1,3048 @@
+---
+openapi: "3.0.0"
+info:
+  description: "This is a generated REST API from a given sqlgeneration database schema."
+  version: "1.0.0"
+  title: "REST API schema generator"
+  termsOfService: "http://datascience9/terms"
+  contact:
+    name: "API Support"
+    url: "http://datascience9/contact"
+    email: "paul.mai@datascience9.com"
+  license:
+    name: "Apache 2.0"
+    url: "http://www.apache.org/licenses/LICENSE-2.0.html"
+servers:
+- url: "http://datascience9.com/schema"
+  description: "Open API for schema"
+paths:
+  /Afxfilter/{Afxfilter}:
+    put:
+      tags:
+      - "Afxfilter"
+      operationId: "fcb6b200-e801-4d2b-9218-9d335cb48a27"
+      parameters:
+      - name: "Afxfilter"
+        in: "path"
+        description: "Afxfilter"
+        required: true
+        schema:
+          $ref: "#/components/schemas/Afxfilter"
+      responses:
+        200:
+          description: "Afxfilter response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+                items:
+                  $ref: "#/components/schemas/Afxfilter"
+              examples:
+                test1:
+                  value:
+                    descfilter: "Lorem ipsum dolor si0"
+                    tablename: "Nanine"
+                    kodfilter: "1207838344"
+        default:
+          description: "error payload"
+          content:
+            application/json:
+              schema:
+                type: "string"
+    post:
+      tags:
+      - "Afxfilter"
+      operationId: "0187d6f8-9f0f-47f4-a515-89c794adeda9"
+      parameters:
+      - name: "Afxfilter"
+        in: "path"
+        description: "Afxfilter"
+        required: true
+        schema:
+          $ref: "#/components/schemas/Afxfilter"
+      responses:
+        200:
+          description: "Afxfilter response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+                items:
+                  $ref: "#/components/schemas/Afxfilter"
+              examples:
+                test1:
+                  value:
+                    descfilter: "Lorem ipsum dolor si0"
+                    tablename: "Nanine"
+                    kodfilter: "1207838344"
+        default:
+          description: "error payload"
+          content:
+            application/json:
+              schema:
+                type: "string"
+  /Afxfilterd/{Afxfilterd}:
+    put:
+      tags:
+      - "Afxfilterd"
+      operationId: "eea6981b-0f0f-49d5-8c82-e09aa743915a"
+      parameters:
+      - name: "Afxfilterd"
+        in: "path"
+        description: "Afxfilterd"
+        required: true
+        schema:
+          $ref: "#/components/schemas/Afxfilterd"
+      responses:
+        200:
+          description: "Afxfilterd response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+                items:
+                  $ref: "#/components/schemas/Afxfilterd"
+              examples:
+                test1:
+                  value:
+                    descfilter: "Lorem ipsum dolor si0"
+                    tablename: "Nanine"
+                    kodfilter: "1207838344"
+        default:
+          description: "error payload"
+          content:
+            application/json:
+              schema:
+                type: "string"
+    post:
+      tags:
+      - "Afxfilterd"
+      operationId: "8db83aea-efbb-4495-89e8-58fabeccbd86"
+      parameters:
+      - name: "Afxfilterd"
+        in: "path"
+        description: "Afxfilterd"
+        required: true
+        schema:
+          $ref: "#/components/schemas/Afxfilterd"
+      responses:
+        200:
+          description: "Afxfilterd response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+                items:
+                  $ref: "#/components/schemas/Afxfilterd"
+              examples:
+                test1:
+                  value:
+                    descfilter: "Lorem ipsum dolor si0"
+                    tablename: "Nanine"
+                    kodfilter: "1207838344"
+        default:
+          description: "error payload"
+          content:
+            application/json:
+              schema:
+                type: "string"
+  /Afxinfo/{Afxinfo}:
+    put:
+      tags:
+      - "Afxinfo"
+      operationId: "62469c11-b095-46f5-a0a0-5d116a8b976c"
+      parameters:
+      - name: "Afxinfo"
+        in: "path"
+        description: "Afxinfo"
+        required: true
+        schema:
+          $ref: "#/components/schemas/Afxinfo"
+      responses:
+        200:
+          description: "Afxinfo response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+                items:
+                  $ref: "#/components/schemas/Afxinfo"
+              examples:
+                test1:
+                  value:
+                    descfilter: "Lorem ipsum dolor si0"
+                    tablename: "Nanine"
+                    kodfilter: "1207838344"
+        default:
+          description: "error payload"
+          content:
+            application/json:
+              schema:
+                type: "string"
+    post:
+      tags:
+      - "Afxinfo"
+      operationId: "dee12235-6936-4c96-8aa4-94454fd42c9c"
+      parameters:
+      - name: "Afxinfo"
+        in: "path"
+        description: "Afxinfo"
+        required: true
+        schema:
+          $ref: "#/components/schemas/Afxinfo"
+      responses:
+        200:
+          description: "Afxinfo response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+                items:
+                  $ref: "#/components/schemas/Afxinfo"
+              examples:
+                test1:
+                  value:
+                    descfilter: "Lorem ipsum dolor si0"
+                    tablename: "Nanine"
+                    kodfilter: "1207838344"
+        default:
+          description: "error payload"
+          content:
+            application/json:
+              schema:
+                type: "string"
+  /Afxkeygen/{Afxkeygen}:
+    put:
+      tags:
+      - "Afxkeygen"
+      operationId: "b8e4d998-f4d4-4842-b3da-468642288858"
+      parameters:
+      - name: "Afxkeygen"
+        in: "path"
+        description: "Afxkeygen"
+        required: true
+        schema:
+          $ref: "#/components/schemas/Afxkeygen"
+      responses:
+        200:
+          description: "Afxkeygen response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+                items:
+                  $ref: "#/components/schemas/Afxkeygen"
+              examples:
+                test1:
+                  value:
+                    descfilter: "Lorem ipsum dolor si0"
+                    tablename: "Nanine"
+                    kodfilter: "1207838344"
+        default:
+          description: "error payload"
+          content:
+            application/json:
+              schema:
+                type: "string"
+    post:
+      tags:
+      - "Afxkeygen"
+      operationId: "170a42f9-1b39-40a7-8074-78506723b86d"
+      parameters:
+      - name: "Afxkeygen"
+        in: "path"
+        description: "Afxkeygen"
+        required: true
+        schema:
+          $ref: "#/components/schemas/Afxkeygen"
+      responses:
+        200:
+          description: "Afxkeygen response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+                items:
+                  $ref: "#/components/schemas/Afxkeygen"
+              examples:
+                test1:
+                  value:
+                    descfilter: "Lorem ipsum dolor si0"
+                    tablename: "Nanine"
+                    kodfilter: "1207838344"
+        default:
+          description: "error payload"
+          content:
+            application/json:
+              schema:
+                type: "string"
+  /Afxoperators/{Afxoperators}:
+    put:
+      tags:
+      - "Afxoperators"
+      operationId: "f87e9f0b-112d-4e59-9353-76b02ebac093"
+      parameters:
+      - name: "Afxoperators"
+        in: "path"
+        description: "Afxoperators"
+        required: true
+        schema:
+          $ref: "#/components/schemas/Afxoperators"
+      responses:
+        200:
+          description: "Afxoperators response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+                items:
+                  $ref: "#/components/schemas/Afxoperators"
+              examples:
+                test1:
+                  value:
+                    descfilter: "Lorem ipsum dolor si0"
+                    tablename: "Nanine"
+                    kodfilter: "1207838344"
+        default:
+          description: "error payload"
+          content:
+            application/json:
+              schema:
+                type: "string"
+    post:
+      tags:
+      - "Afxoperators"
+      operationId: "e20db140-00bc-4d8c-bbd4-602d64d18eff"
+      parameters:
+      - name: "Afxoperators"
+        in: "path"
+        description: "Afxoperators"
+        required: true
+        schema:
+          $ref: "#/components/schemas/Afxoperators"
+      responses:
+        200:
+          description: "Afxoperators response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+                items:
+                  $ref: "#/components/schemas/Afxoperators"
+              examples:
+                test1:
+                  value:
+                    descfilter: "Lorem ipsum dolor si0"
+                    tablename: "Nanine"
+                    kodfilter: "1207838344"
+        default:
+          description: "error payload"
+          content:
+            application/json:
+              schema:
+                type: "string"
+  /Afxptoseis/{Afxptoseis}:
+    put:
+      tags:
+      - "Afxptoseis"
+      operationId: "1a7de811-b589-44eb-ab58-7e3f4fbc6db1"
+      parameters:
+      - name: "Afxptoseis"
+        in: "path"
+        description: "Afxptoseis"
+        required: true
+        schema:
+          $ref: "#/components/schemas/Afxptoseis"
+      responses:
+        200:
+          description: "Afxptoseis response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+                items:
+                  $ref: "#/components/schemas/Afxptoseis"
+              examples:
+                test1:
+                  value:
+                    descfilter: "Lorem ipsum dolor si0"
+                    tablename: "Nanine"
+                    kodfilter: "1207838344"
+        default:
+          description: "error payload"
+          content:
+            application/json:
+              schema:
+                type: "string"
+    post:
+      tags:
+      - "Afxptoseis"
+      operationId: "ceadc9f7-41f0-4267-9fa4-ae7c7151debb"
+      parameters:
+      - name: "Afxptoseis"
+        in: "path"
+        description: "Afxptoseis"
+        required: true
+        schema:
+          $ref: "#/components/schemas/Afxptoseis"
+      responses:
+        200:
+          description: "Afxptoseis response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+                items:
+                  $ref: "#/components/schemas/Afxptoseis"
+              examples:
+                test1:
+                  value:
+                    descfilter: "Lorem ipsum dolor si0"
+                    tablename: "Nanine"
+                    kodfilter: "1207838344"
+        default:
+          description: "error payload"
+          content:
+            application/json:
+              schema:
+                type: "string"
+  /Afxtable/{Afxtable}:
+    put:
+      tags:
+      - "Afxtable"
+      operationId: "7d99e16b-ad7d-4614-8402-736954afde51"
+      parameters:
+      - name: "Afxtable"
+        in: "path"
+        description: "Afxtable"
+        required: true
+        schema:
+          $ref: "#/components/schemas/Afxtable"
+      responses:
+        200:
+          description: "Afxtable response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+                items:
+                  $ref: "#/components/schemas/Afxtable"
+              examples:
+                test1:
+                  value:
+                    descfilter: "Lorem ipsum dolor si0"
+                    tablename: "Nanine"
+                    kodfilter: "1207838344"
+        default:
+          description: "error payload"
+          content:
+            application/json:
+              schema:
+                type: "string"
+    post:
+      tags:
+      - "Afxtable"
+      operationId: "16538e2c-00ae-462a-b3b6-594df213c6b1"
+      parameters:
+      - name: "Afxtable"
+        in: "path"
+        description: "Afxtable"
+        required: true
+        schema:
+          $ref: "#/components/schemas/Afxtable"
+      responses:
+        200:
+          description: "Afxtable response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+                items:
+                  $ref: "#/components/schemas/Afxtable"
+              examples:
+                test1:
+                  value:
+                    descfilter: "Lorem ipsum dolor si0"
+                    tablename: "Nanine"
+                    kodfilter: "1207838344"
+        default:
+          description: "error payload"
+          content:
+            application/json:
+              schema:
+                type: "string"
+  /Afxtablefields/{Afxtablefields}:
+    put:
+      tags:
+      - "Afxtablefields"
+      operationId: "d3bea384-1d78-4a39-90a2-45655154e388"
+      parameters:
+      - name: "Afxtablefields"
+        in: "path"
+        description: "Afxtablefields"
+        required: true
+        schema:
+          $ref: "#/components/schemas/Afxtablefields"
+      responses:
+        200:
+          description: "Afxtablefields response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+                items:
+                  $ref: "#/components/schemas/Afxtablefields"
+              examples:
+                test1:
+                  value:
+                    descfilter: "Lorem ipsum dolor si0"
+                    tablename: "Nanine"
+                    kodfilter: "1207838344"
+        default:
+          description: "error payload"
+          content:
+            application/json:
+              schema:
+                type: "string"
+    post:
+      tags:
+      - "Afxtablefields"
+      operationId: "fc612d00-3c9e-4f2a-a477-8bbb11b145f7"
+      parameters:
+      - name: "Afxtablefields"
+        in: "path"
+        description: "Afxtablefields"
+        required: true
+        schema:
+          $ref: "#/components/schemas/Afxtablefields"
+      responses:
+        200:
+          description: "Afxtablefields response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+                items:
+                  $ref: "#/components/schemas/Afxtablefields"
+              examples:
+                test1:
+                  value:
+                    descfilter: "Lorem ipsum dolor si0"
+                    tablename: "Nanine"
+                    kodfilter: "1207838344"
+        default:
+          description: "error payload"
+          content:
+            application/json:
+              schema:
+                type: "string"
+  /Afxtranslate/{Afxtranslate}:
+    put:
+      tags:
+      - "Afxtranslate"
+      operationId: "c619ffb7-b5a1-405e-a15b-54ecda09f144"
+      parameters:
+      - name: "Afxtranslate"
+        in: "path"
+        description: "Afxtranslate"
+        required: true
+        schema:
+          $ref: "#/components/schemas/Afxtranslate"
+      responses:
+        200:
+          description: "Afxtranslate response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+                items:
+                  $ref: "#/components/schemas/Afxtranslate"
+              examples:
+                test1:
+                  value:
+                    descfilter: "Lorem ipsum dolor si0"
+                    tablename: "Nanine"
+                    kodfilter: "1207838344"
+        default:
+          description: "error payload"
+          content:
+            application/json:
+              schema:
+                type: "string"
+    post:
+      tags:
+      - "Afxtranslate"
+      operationId: "0dded23d-abfe-4811-ab86-e540dd9fad2b"
+      parameters:
+      - name: "Afxtranslate"
+        in: "path"
+        description: "Afxtranslate"
+        required: true
+        schema:
+          $ref: "#/components/schemas/Afxtranslate"
+      responses:
+        200:
+          description: "Afxtranslate response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+                items:
+                  $ref: "#/components/schemas/Afxtranslate"
+              examples:
+                test1:
+                  value:
+                    descfilter: "Lorem ipsum dolor si0"
+                    tablename: "Nanine"
+                    kodfilter: "1207838344"
+        default:
+          description: "error payload"
+          content:
+            application/json:
+              schema:
+                type: "string"
+  /MisthZpxrisi/{MisthZpxrisi}:
+    put:
+      tags:
+      - "MisthZpxrisi"
+      operationId: "9cf57503-7a05-4bcb-9b84-48467d68c9f7"
+      parameters:
+      - name: "MisthZpxrisi"
+        in: "path"
+        description: "MisthZpxrisi"
+        required: true
+        schema:
+          $ref: "#/components/schemas/MisthZpxrisi"
+      responses:
+        200:
+          description: "MisthZpxrisi response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+                items:
+                  $ref: "#/components/schemas/MisthZpxrisi"
+              examples:
+                test1:
+                  value:
+                    descfilter: "Lorem ipsum dolor si0"
+                    tablename: "Nanine"
+                    kodfilter: "1207838344"
+        default:
+          description: "error payload"
+          content:
+            application/json:
+              schema:
+                type: "string"
+    post:
+      tags:
+      - "MisthZpxrisi"
+      operationId: "2342fbdb-066c-461f-9c4d-f619c53c25d4"
+      parameters:
+      - name: "MisthZpxrisi"
+        in: "path"
+        description: "MisthZpxrisi"
+        required: true
+        schema:
+          $ref: "#/components/schemas/MisthZpxrisi"
+      responses:
+        200:
+          description: "MisthZpxrisi response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+                items:
+                  $ref: "#/components/schemas/MisthZpxrisi"
+              examples:
+                test1:
+                  value:
+                    descfilter: "Lorem ipsum dolor si0"
+                    tablename: "Nanine"
+                    kodfilter: "1207838344"
+        default:
+          description: "error payload"
+          content:
+            application/json:
+              schema:
+                type: "string"
+  /MisthZpperiod/{MisthZpperiod}:
+    put:
+      tags:
+      - "MisthZpperiod"
+      operationId: "a601ffa0-5616-4b78-b65d-72432dd86bbc"
+      parameters:
+      - name: "MisthZpperiod"
+        in: "path"
+        description: "MisthZpperiod"
+        required: true
+        schema:
+          $ref: "#/components/schemas/MisthZpperiod"
+      responses:
+        200:
+          description: "MisthZpperiod response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+                items:
+                  $ref: "#/components/schemas/MisthZpperiod"
+              examples:
+                test1:
+                  value:
+                    descfilter: "Lorem ipsum dolor si0"
+                    tablename: "Nanine"
+                    kodfilter: "1207838344"
+        default:
+          description: "error payload"
+          content:
+            application/json:
+              schema:
+                type: "string"
+    post:
+      tags:
+      - "MisthZpperiod"
+      operationId: "f0df992d-6662-4f3c-892e-c790a1fc49b5"
+      parameters:
+      - name: "MisthZpperiod"
+        in: "path"
+        description: "MisthZpperiod"
+        required: true
+        schema:
+          $ref: "#/components/schemas/MisthZpperiod"
+      responses:
+        200:
+          description: "MisthZpperiod response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+                items:
+                  $ref: "#/components/schemas/MisthZpperiod"
+              examples:
+                test1:
+                  value:
+                    descfilter: "Lorem ipsum dolor si0"
+                    tablename: "Nanine"
+                    kodfilter: "1207838344"
+        default:
+          description: "error payload"
+          content:
+            application/json:
+              schema:
+                type: "string"
+  /MisthZpkat/{MisthZpkat}:
+    put:
+      tags:
+      - "MisthZpkat"
+      operationId: "fbe2f552-408c-4420-968a-ef9927dd88da"
+      parameters:
+      - name: "MisthZpkat"
+        in: "path"
+        description: "MisthZpkat"
+        required: true
+        schema:
+          $ref: "#/components/schemas/MisthZpkat"
+      responses:
+        200:
+          description: "MisthZpkat response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+                items:
+                  $ref: "#/components/schemas/MisthZpkat"
+              examples:
+                test1:
+                  value:
+                    descfilter: "Lorem ipsum dolor si0"
+                    tablename: "Nanine"
+                    kodfilter: "1207838344"
+        default:
+          description: "error payload"
+          content:
+            application/json:
+              schema:
+                type: "string"
+    post:
+      tags:
+      - "MisthZpkat"
+      operationId: "dc8c86e3-815b-41a4-aa82-c9736eacc8e3"
+      parameters:
+      - name: "MisthZpkat"
+        in: "path"
+        description: "MisthZpkat"
+        required: true
+        schema:
+          $ref: "#/components/schemas/MisthZpkat"
+      responses:
+        200:
+          description: "MisthZpkat response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+                items:
+                  $ref: "#/components/schemas/MisthZpkat"
+              examples:
+                test1:
+                  value:
+                    descfilter: "Lorem ipsum dolor si0"
+                    tablename: "Nanine"
+                    kodfilter: "1207838344"
+        default:
+          description: "error payload"
+          content:
+            application/json:
+              schema:
+                type: "string"
+  /MisthFinal/{MisthFinal}:
+    put:
+      tags:
+      - "MisthFinal"
+      operationId: "5f513c9e-7479-4638-b19d-8210674fa891"
+      parameters:
+      - name: "MisthFinal"
+        in: "path"
+        description: "MisthFinal"
+        required: true
+        schema:
+          $ref: "#/components/schemas/MisthFinal"
+      responses:
+        200:
+          description: "MisthFinal response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+                items:
+                  $ref: "#/components/schemas/MisthFinal"
+              examples:
+                test1:
+                  value:
+                    descfilter: "Lorem ipsum dolor si0"
+                    tablename: "Nanine"
+                    kodfilter: "1207838344"
+        default:
+          description: "error payload"
+          content:
+            application/json:
+              schema:
+                type: "string"
+    post:
+      tags:
+      - "MisthFinal"
+      operationId: "de484b4f-f624-460e-ac23-2e6164f16ac7"
+      parameters:
+      - name: "MisthFinal"
+        in: "path"
+        description: "MisthFinal"
+        required: true
+        schema:
+          $ref: "#/components/schemas/MisthFinal"
+      responses:
+        200:
+          description: "MisthFinal response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+                items:
+                  $ref: "#/components/schemas/MisthFinal"
+              examples:
+                test1:
+                  value:
+                    descfilter: "Lorem ipsum dolor si0"
+                    tablename: "Nanine"
+                    kodfilter: "1207838344"
+        default:
+          description: "error payload"
+          content:
+            application/json:
+              schema:
+                type: "string"
+  /MisthZptmima/{MisthZptmima}:
+    put:
+      tags:
+      - "MisthZptmima"
+      operationId: "64d6dee5-e352-437e-8d61-62ecfe2e41e7"
+      parameters:
+      - name: "MisthZptmima"
+        in: "path"
+        description: "MisthZptmima"
+        required: true
+        schema:
+          $ref: "#/components/schemas/MisthZptmima"
+      responses:
+        200:
+          description: "MisthZptmima response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+                items:
+                  $ref: "#/components/schemas/MisthZptmima"
+              examples:
+                test1:
+                  value:
+                    descfilter: "Lorem ipsum dolor si0"
+                    tablename: "Nanine"
+                    kodfilter: "1207838344"
+        default:
+          description: "error payload"
+          content:
+            application/json:
+              schema:
+                type: "string"
+    post:
+      tags:
+      - "MisthZptmima"
+      operationId: "cd5e2f54-7170-4bd2-8371-340cf33484a6"
+      parameters:
+      - name: "MisthZptmima"
+        in: "path"
+        description: "MisthZptmima"
+        required: true
+        schema:
+          $ref: "#/components/schemas/MisthZptmima"
+      responses:
+        200:
+          description: "MisthZptmima response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+                items:
+                  $ref: "#/components/schemas/MisthZptmima"
+              examples:
+                test1:
+                  value:
+                    descfilter: "Lorem ipsum dolor si0"
+                    tablename: "Nanine"
+                    kodfilter: "1207838344"
+        default:
+          description: "error payload"
+          content:
+            application/json:
+              schema:
+                type: "string"
+  /MisthZpidikot/{MisthZpidikot}:
+    put:
+      tags:
+      - "MisthZpidikot"
+      operationId: "ee5df4bb-b97d-41d4-8636-4de206929816"
+      parameters:
+      - name: "MisthZpidikot"
+        in: "path"
+        description: "MisthZpidikot"
+        required: true
+        schema:
+          $ref: "#/components/schemas/MisthZpidikot"
+      responses:
+        200:
+          description: "MisthZpidikot response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+                items:
+                  $ref: "#/components/schemas/MisthZpidikot"
+              examples:
+                test1:
+                  value:
+                    descfilter: "Lorem ipsum dolor si0"
+                    tablename: "Nanine"
+                    kodfilter: "1207838344"
+        default:
+          description: "error payload"
+          content:
+            application/json:
+              schema:
+                type: "string"
+    post:
+      tags:
+      - "MisthZpidikot"
+      operationId: "80a88f36-6f39-4c8b-86ed-a596a534adf5"
+      parameters:
+      - name: "MisthZpidikot"
+        in: "path"
+        description: "MisthZpidikot"
+        required: true
+        schema:
+          $ref: "#/components/schemas/MisthZpidikot"
+      responses:
+        200:
+          description: "MisthZpidikot response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+                items:
+                  $ref: "#/components/schemas/MisthZpidikot"
+              examples:
+                test1:
+                  value:
+                    descfilter: "Lorem ipsum dolor si0"
+                    tablename: "Nanine"
+                    kodfilter: "1207838344"
+        default:
+          description: "error payload"
+          content:
+            application/json:
+              schema:
+                type: "string"
+  /MisthZpthesi/{MisthZpthesi}:
+    put:
+      tags:
+      - "MisthZpthesi"
+      operationId: "997da47f-46b0-4ce7-88f0-2b8714edcc14"
+      parameters:
+      - name: "MisthZpthesi"
+        in: "path"
+        description: "MisthZpthesi"
+        required: true
+        schema:
+          $ref: "#/components/schemas/MisthZpthesi"
+      responses:
+        200:
+          description: "MisthZpthesi response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+                items:
+                  $ref: "#/components/schemas/MisthZpthesi"
+              examples:
+                test1:
+                  value:
+                    descfilter: "Lorem ipsum dolor si0"
+                    tablename: "Nanine"
+                    kodfilter: "1207838344"
+        default:
+          description: "error payload"
+          content:
+            application/json:
+              schema:
+                type: "string"
+    post:
+      tags:
+      - "MisthZpthesi"
+      operationId: "635b66a2-1138-4557-a514-c6b388f07adc"
+      parameters:
+      - name: "MisthZpthesi"
+        in: "path"
+        description: "MisthZpthesi"
+        required: true
+        schema:
+          $ref: "#/components/schemas/MisthZpthesi"
+      responses:
+        200:
+          description: "MisthZpthesi response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+                items:
+                  $ref: "#/components/schemas/MisthZpthesi"
+              examples:
+                test1:
+                  value:
+                    descfilter: "Lorem ipsum dolor si0"
+                    tablename: "Nanine"
+                    kodfilter: "1207838344"
+        default:
+          description: "error payload"
+          content:
+            application/json:
+              schema:
+                type: "string"
+  /MisthZptamio/{MisthZptamio}:
+    put:
+      tags:
+      - "MisthZptamio"
+      operationId: "ddb2a3c8-64a9-4459-9f67-705b6a12d1ed"
+      parameters:
+      - name: "MisthZptamio"
+        in: "path"
+        description: "MisthZptamio"
+        required: true
+        schema:
+          $ref: "#/components/schemas/MisthZptamio"
+      responses:
+        200:
+          description: "MisthZptamio response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+                items:
+                  $ref: "#/components/schemas/MisthZptamio"
+              examples:
+                test1:
+                  value:
+                    descfilter: "Lorem ipsum dolor si0"
+                    tablename: "Nanine"
+                    kodfilter: "1207838344"
+        default:
+          description: "error payload"
+          content:
+            application/json:
+              schema:
+                type: "string"
+    post:
+      tags:
+      - "MisthZptamio"
+      operationId: "868dd640-a54b-4c8f-a202-9d540199cc81"
+      parameters:
+      - name: "MisthZptamio"
+        in: "path"
+        description: "MisthZptamio"
+        required: true
+        schema:
+          $ref: "#/components/schemas/MisthZptamio"
+      responses:
+        200:
+          description: "MisthZptamio response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+                items:
+                  $ref: "#/components/schemas/MisthZptamio"
+              examples:
+                test1:
+                  value:
+                    descfilter: "Lorem ipsum dolor si0"
+                    tablename: "Nanine"
+                    kodfilter: "1207838344"
+        default:
+          description: "error payload"
+          content:
+            application/json:
+              schema:
+                type: "string"
+  /MisthZpoikog/{MisthZpoikog}:
+    put:
+      tags:
+      - "MisthZpoikog"
+      operationId: "ea57f038-eca9-42ad-8967-dfe48e091a51"
+      parameters:
+      - name: "MisthZpoikog"
+        in: "path"
+        description: "MisthZpoikog"
+        required: true
+        schema:
+          $ref: "#/components/schemas/MisthZpoikog"
+      responses:
+        200:
+          description: "MisthZpoikog response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+                items:
+                  $ref: "#/components/schemas/MisthZpoikog"
+              examples:
+                test1:
+                  value:
+                    descfilter: "Lorem ipsum dolor si0"
+                    tablename: "Nanine"
+                    kodfilter: "1207838344"
+        default:
+          description: "error payload"
+          content:
+            application/json:
+              schema:
+                type: "string"
+    post:
+      tags:
+      - "MisthZpoikog"
+      operationId: "f232e111-13f0-43f9-8a97-b8dd5f0e985b"
+      parameters:
+      - name: "MisthZpoikog"
+        in: "path"
+        description: "MisthZpoikog"
+        required: true
+        schema:
+          $ref: "#/components/schemas/MisthZpoikog"
+      responses:
+        200:
+          description: "MisthZpoikog response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+                items:
+                  $ref: "#/components/schemas/MisthZpoikog"
+              examples:
+                test1:
+                  value:
+                    descfilter: "Lorem ipsum dolor si0"
+                    tablename: "Nanine"
+                    kodfilter: "1207838344"
+        default:
+          description: "error payload"
+          content:
+            application/json:
+              schema:
+                type: "string"
+  /MisthYpal/{MisthYpal}:
+    put:
+      tags:
+      - "MisthYpal"
+      operationId: "d5d0740a-6796-4cf7-b7c1-68b1be2901c6"
+      parameters:
+      - name: "MisthYpal"
+        in: "path"
+        description: "MisthYpal"
+        required: true
+        schema:
+          $ref: "#/components/schemas/MisthYpal"
+      responses:
+        200:
+          description: "MisthYpal response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+                items:
+                  $ref: "#/components/schemas/MisthYpal"
+              examples:
+                test1:
+                  value:
+                    descfilter: "Lorem ipsum dolor si0"
+                    tablename: "Nanine"
+                    kodfilter: "1207838344"
+        default:
+          description: "error payload"
+          content:
+            application/json:
+              schema:
+                type: "string"
+    post:
+      tags:
+      - "MisthYpal"
+      operationId: "2f9bb971-d1f3-4536-863b-272c5322cdac"
+      parameters:
+      - name: "MisthYpal"
+        in: "path"
+        description: "MisthYpal"
+        required: true
+        schema:
+          $ref: "#/components/schemas/MisthYpal"
+      responses:
+        200:
+          description: "MisthYpal response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+                items:
+                  $ref: "#/components/schemas/MisthYpal"
+              examples:
+                test1:
+                  value:
+                    descfilter: "Lorem ipsum dolor si0"
+                    tablename: "Nanine"
+                    kodfilter: "1207838344"
+        default:
+          description: "error payload"
+          content:
+            application/json:
+              schema:
+                type: "string"
+  /MisthFinalYpal/{MisthFinalYpal}:
+    put:
+      tags:
+      - "MisthFinalYpal"
+      operationId: "1ab567a7-00a8-4431-b7a7-5a92a33918f5"
+      parameters:
+      - name: "MisthFinalYpal"
+        in: "path"
+        description: "MisthFinalYpal"
+        required: true
+        schema:
+          $ref: "#/components/schemas/MisthFinalYpal"
+      responses:
+        200:
+          description: "MisthFinalYpal response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+                items:
+                  $ref: "#/components/schemas/MisthFinalYpal"
+              examples:
+                test1:
+                  value:
+                    descfilter: "Lorem ipsum dolor si0"
+                    tablename: "Nanine"
+                    kodfilter: "1207838344"
+        default:
+          description: "error payload"
+          content:
+            application/json:
+              schema:
+                type: "string"
+    post:
+      tags:
+      - "MisthFinalYpal"
+      operationId: "9e5424fe-a677-4a58-a015-9c57ca92e1c3"
+      parameters:
+      - name: "MisthFinalYpal"
+        in: "path"
+        description: "MisthFinalYpal"
+        required: true
+        schema:
+          $ref: "#/components/schemas/MisthFinalYpal"
+      responses:
+        200:
+          description: "MisthFinalYpal response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+                items:
+                  $ref: "#/components/schemas/MisthFinalYpal"
+              examples:
+                test1:
+                  value:
+                    descfilter: "Lorem ipsum dolor si0"
+                    tablename: "Nanine"
+                    kodfilter: "1207838344"
+        default:
+          description: "error payload"
+          content:
+            application/json:
+              schema:
+                type: "string"
+  /MisthZpepidom/{MisthZpepidom}:
+    put:
+      tags:
+      - "MisthZpepidom"
+      operationId: "a7c7ce33-27b0-4255-adce-63ce08458364"
+      parameters:
+      - name: "MisthZpepidom"
+        in: "path"
+        description: "MisthZpepidom"
+        required: true
+        schema:
+          $ref: "#/components/schemas/MisthZpepidom"
+      responses:
+        200:
+          description: "MisthZpepidom response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+                items:
+                  $ref: "#/components/schemas/MisthZpepidom"
+              examples:
+                test1:
+                  value:
+                    descfilter: "Lorem ipsum dolor si0"
+                    tablename: "Nanine"
+                    kodfilter: "1207838344"
+        default:
+          description: "error payload"
+          content:
+            application/json:
+              schema:
+                type: "string"
+    post:
+      tags:
+      - "MisthZpepidom"
+      operationId: "229bf1aa-c65b-40be-a114-498c0331b8c3"
+      parameters:
+      - name: "MisthZpepidom"
+        in: "path"
+        description: "MisthZpepidom"
+        required: true
+        schema:
+          $ref: "#/components/schemas/MisthZpepidom"
+      responses:
+        200:
+          description: "MisthZpepidom response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+                items:
+                  $ref: "#/components/schemas/MisthZpepidom"
+              examples:
+                test1:
+                  value:
+                    descfilter: "Lorem ipsum dolor si0"
+                    tablename: "Nanine"
+                    kodfilter: "1207838344"
+        default:
+          description: "error payload"
+          content:
+            application/json:
+              schema:
+                type: "string"
+  /MisthFinalYpalEpidom/{MisthFinalYpalEpidom}:
+    put:
+      tags:
+      - "MisthFinalYpalEpidom"
+      operationId: "89dd8a04-600b-450f-9ebd-766359af0130"
+      parameters:
+      - name: "MisthFinalYpalEpidom"
+        in: "path"
+        description: "MisthFinalYpalEpidom"
+        required: true
+        schema:
+          $ref: "#/components/schemas/MisthFinalYpalEpidom"
+      responses:
+        200:
+          description: "MisthFinalYpalEpidom response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+                items:
+                  $ref: "#/components/schemas/MisthFinalYpalEpidom"
+              examples:
+                test1:
+                  value:
+                    descfilter: "Lorem ipsum dolor si0"
+                    tablename: "Nanine"
+                    kodfilter: "1207838344"
+        default:
+          description: "error payload"
+          content:
+            application/json:
+              schema:
+                type: "string"
+    post:
+      tags:
+      - "MisthFinalYpalEpidom"
+      operationId: "bccf5c1e-8550-4d2a-a8bb-db279a8b94ba"
+      parameters:
+      - name: "MisthFinalYpalEpidom"
+        in: "path"
+        description: "MisthFinalYpalEpidom"
+        required: true
+        schema:
+          $ref: "#/components/schemas/MisthFinalYpalEpidom"
+      responses:
+        200:
+          description: "MisthFinalYpalEpidom response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+                items:
+                  $ref: "#/components/schemas/MisthFinalYpalEpidom"
+              examples:
+                test1:
+                  value:
+                    descfilter: "Lorem ipsum dolor si0"
+                    tablename: "Nanine"
+                    kodfilter: "1207838344"
+        default:
+          description: "error payload"
+          content:
+            application/json:
+              schema:
+                type: "string"
+  /MisthZpkrat/{MisthZpkrat}:
+    put:
+      tags:
+      - "MisthZpkrat"
+      operationId: "4982d65c-41b2-4134-b2a9-11925ee9def0"
+      parameters:
+      - name: "MisthZpkrat"
+        in: "path"
+        description: "MisthZpkrat"
+        required: true
+        schema:
+          $ref: "#/components/schemas/MisthZpkrat"
+      responses:
+        200:
+          description: "MisthZpkrat response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+                items:
+                  $ref: "#/components/schemas/MisthZpkrat"
+              examples:
+                test1:
+                  value:
+                    descfilter: "Lorem ipsum dolor si0"
+                    tablename: "Nanine"
+                    kodfilter: "1207838344"
+        default:
+          description: "error payload"
+          content:
+            application/json:
+              schema:
+                type: "string"
+    post:
+      tags:
+      - "MisthZpkrat"
+      operationId: "3874e846-74b9-4f83-9e18-afdd8800469c"
+      parameters:
+      - name: "MisthZpkrat"
+        in: "path"
+        description: "MisthZpkrat"
+        required: true
+        schema:
+          $ref: "#/components/schemas/MisthZpkrat"
+      responses:
+        200:
+          description: "MisthZpkrat response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+                items:
+                  $ref: "#/components/schemas/MisthZpkrat"
+              examples:
+                test1:
+                  value:
+                    descfilter: "Lorem ipsum dolor si0"
+                    tablename: "Nanine"
+                    kodfilter: "1207838344"
+        default:
+          description: "error payload"
+          content:
+            application/json:
+              schema:
+                type: "string"
+  /MisthKratapod/{MisthKratapod}:
+    put:
+      tags:
+      - "MisthKratapod"
+      operationId: "2ed79654-8372-43b1-b03b-623e81d6b7e8"
+      parameters:
+      - name: "MisthKratapod"
+        in: "path"
+        description: "MisthKratapod"
+        required: true
+        schema:
+          $ref: "#/components/schemas/MisthKratapod"
+      responses:
+        200:
+          description: "MisthKratapod response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+                items:
+                  $ref: "#/components/schemas/MisthKratapod"
+              examples:
+                test1:
+                  value:
+                    descfilter: "Lorem ipsum dolor si0"
+                    tablename: "Nanine"
+                    kodfilter: "1207838344"
+        default:
+          description: "error payload"
+          content:
+            application/json:
+              schema:
+                type: "string"
+    post:
+      tags:
+      - "MisthKratapod"
+      operationId: "4627358c-edd2-49ed-bf4e-3ef436aefbed"
+      parameters:
+      - name: "MisthKratapod"
+        in: "path"
+        description: "MisthKratapod"
+        required: true
+        schema:
+          $ref: "#/components/schemas/MisthKratapod"
+      responses:
+        200:
+          description: "MisthKratapod response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+                items:
+                  $ref: "#/components/schemas/MisthKratapod"
+              examples:
+                test1:
+                  value:
+                    descfilter: "Lorem ipsum dolor si0"
+                    tablename: "Nanine"
+                    kodfilter: "1207838344"
+        default:
+          description: "error payload"
+          content:
+            application/json:
+              schema:
+                type: "string"
+  /MisthFinalYpalKrat/{MisthFinalYpalKrat}:
+    put:
+      tags:
+      - "MisthFinalYpalKrat"
+      operationId: "8bb534e6-301d-4b2c-82f7-7313de1ee6c0"
+      parameters:
+      - name: "MisthFinalYpalKrat"
+        in: "path"
+        description: "MisthFinalYpalKrat"
+        required: true
+        schema:
+          $ref: "#/components/schemas/MisthFinalYpalKrat"
+      responses:
+        200:
+          description: "MisthFinalYpalKrat response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+                items:
+                  $ref: "#/components/schemas/MisthFinalYpalKrat"
+              examples:
+                test1:
+                  value:
+                    descfilter: "Lorem ipsum dolor si0"
+                    tablename: "Nanine"
+                    kodfilter: "1207838344"
+        default:
+          description: "error payload"
+          content:
+            application/json:
+              schema:
+                type: "string"
+    post:
+      tags:
+      - "MisthFinalYpalKrat"
+      operationId: "5708bff7-84e7-4aed-9107-04d908753e52"
+      parameters:
+      - name: "MisthFinalYpalKrat"
+        in: "path"
+        description: "MisthFinalYpalKrat"
+        required: true
+        schema:
+          $ref: "#/components/schemas/MisthFinalYpalKrat"
+      responses:
+        200:
+          description: "MisthFinalYpalKrat response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+                items:
+                  $ref: "#/components/schemas/MisthFinalYpalKrat"
+              examples:
+                test1:
+                  value:
+                    descfilter: "Lorem ipsum dolor si0"
+                    tablename: "Nanine"
+                    kodfilter: "1207838344"
+        default:
+          description: "error payload"
+          content:
+            application/json:
+              schema:
+                type: "string"
+  /MisthFylo/{MisthFylo}:
+    put:
+      tags:
+      - "MisthFylo"
+      operationId: "95ab1910-d102-424d-b117-20fdd61f20de"
+      parameters:
+      - name: "MisthFylo"
+        in: "path"
+        description: "MisthFylo"
+        required: true
+        schema:
+          $ref: "#/components/schemas/MisthFylo"
+      responses:
+        200:
+          description: "MisthFylo response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+                items:
+                  $ref: "#/components/schemas/MisthFylo"
+              examples:
+                test1:
+                  value:
+                    descfilter: "Lorem ipsum dolor si0"
+                    tablename: "Nanine"
+                    kodfilter: "1207838344"
+        default:
+          description: "error payload"
+          content:
+            application/json:
+              schema:
+                type: "string"
+    post:
+      tags:
+      - "MisthFylo"
+      operationId: "f9010009-665e-49ac-a708-4f73d12d4027"
+      parameters:
+      - name: "MisthFylo"
+        in: "path"
+        description: "MisthFylo"
+        required: true
+        schema:
+          $ref: "#/components/schemas/MisthFylo"
+      responses:
+        200:
+          description: "MisthFylo response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+                items:
+                  $ref: "#/components/schemas/MisthFylo"
+              examples:
+                test1:
+                  value:
+                    descfilter: "Lorem ipsum dolor si0"
+                    tablename: "Nanine"
+                    kodfilter: "1207838344"
+        default:
+          description: "error payload"
+          content:
+            application/json:
+              schema:
+                type: "string"
+  /MisthFyloEpidom/{MisthFyloEpidom}:
+    put:
+      tags:
+      - "MisthFyloEpidom"
+      operationId: "e455773b-70ee-4fa7-b3e9-9b71c26a51ee"
+      parameters:
+      - name: "MisthFyloEpidom"
+        in: "path"
+        description: "MisthFyloEpidom"
+        required: true
+        schema:
+          $ref: "#/components/schemas/MisthFyloEpidom"
+      responses:
+        200:
+          description: "MisthFyloEpidom response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+                items:
+                  $ref: "#/components/schemas/MisthFyloEpidom"
+              examples:
+                test1:
+                  value:
+                    descfilter: "Lorem ipsum dolor si0"
+                    tablename: "Nanine"
+                    kodfilter: "1207838344"
+        default:
+          description: "error payload"
+          content:
+            application/json:
+              schema:
+                type: "string"
+    post:
+      tags:
+      - "MisthFyloEpidom"
+      operationId: "f47609ef-f388-431e-b030-00e6d1504e07"
+      parameters:
+      - name: "MisthFyloEpidom"
+        in: "path"
+        description: "MisthFyloEpidom"
+        required: true
+        schema:
+          $ref: "#/components/schemas/MisthFyloEpidom"
+      responses:
+        200:
+          description: "MisthFyloEpidom response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+                items:
+                  $ref: "#/components/schemas/MisthFyloEpidom"
+              examples:
+                test1:
+                  value:
+                    descfilter: "Lorem ipsum dolor si0"
+                    tablename: "Nanine"
+                    kodfilter: "1207838344"
+        default:
+          description: "error payload"
+          content:
+            application/json:
+              schema:
+                type: "string"
+  /MisthFyloKrat/{MisthFyloKrat}:
+    put:
+      tags:
+      - "MisthFyloKrat"
+      operationId: "b631b845-700a-4d06-ad5d-0f0a7f85b0e3"
+      parameters:
+      - name: "MisthFyloKrat"
+        in: "path"
+        description: "MisthFyloKrat"
+        required: true
+        schema:
+          $ref: "#/components/schemas/MisthFyloKrat"
+      responses:
+        200:
+          description: "MisthFyloKrat response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+                items:
+                  $ref: "#/components/schemas/MisthFyloKrat"
+              examples:
+                test1:
+                  value:
+                    descfilter: "Lorem ipsum dolor si0"
+                    tablename: "Nanine"
+                    kodfilter: "1207838344"
+        default:
+          description: "error payload"
+          content:
+            application/json:
+              schema:
+                type: "string"
+    post:
+      tags:
+      - "MisthFyloKrat"
+      operationId: "8f4e219d-6794-4cf5-948c-751347def54b"
+      parameters:
+      - name: "MisthFyloKrat"
+        in: "path"
+        description: "MisthFyloKrat"
+        required: true
+        schema:
+          $ref: "#/components/schemas/MisthFyloKrat"
+      responses:
+        200:
+          description: "MisthFyloKrat response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+                items:
+                  $ref: "#/components/schemas/MisthFyloKrat"
+              examples:
+                test1:
+                  value:
+                    descfilter: "Lorem ipsum dolor si0"
+                    tablename: "Nanine"
+                    kodfilter: "1207838344"
+        default:
+          description: "error payload"
+          content:
+            application/json:
+              schema:
+                type: "string"
+  /MisthFyloYpal/{MisthFyloYpal}:
+    put:
+      tags:
+      - "MisthFyloYpal"
+      operationId: "4033f1d5-b887-47f5-81aa-b866590639e8"
+      parameters:
+      - name: "MisthFyloYpal"
+        in: "path"
+        description: "MisthFyloYpal"
+        required: true
+        schema:
+          $ref: "#/components/schemas/MisthFyloYpal"
+      responses:
+        200:
+          description: "MisthFyloYpal response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+                items:
+                  $ref: "#/components/schemas/MisthFyloYpal"
+              examples:
+                test1:
+                  value:
+                    descfilter: "Lorem ipsum dolor si0"
+                    tablename: "Nanine"
+                    kodfilter: "1207838344"
+        default:
+          description: "error payload"
+          content:
+            application/json:
+              schema:
+                type: "string"
+    post:
+      tags:
+      - "MisthFyloYpal"
+      operationId: "2f210eb6-e1cb-455e-8d73-bd9199fdb0a7"
+      parameters:
+      - name: "MisthFyloYpal"
+        in: "path"
+        description: "MisthFyloYpal"
+        required: true
+        schema:
+          $ref: "#/components/schemas/MisthFyloYpal"
+      responses:
+        200:
+          description: "MisthFyloYpal response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+                items:
+                  $ref: "#/components/schemas/MisthFyloYpal"
+              examples:
+                test1:
+                  value:
+                    descfilter: "Lorem ipsum dolor si0"
+                    tablename: "Nanine"
+                    kodfilter: "1207838344"
+        default:
+          description: "error payload"
+          content:
+            application/json:
+              schema:
+                type: "string"
+  /MisthReport/{MisthReport}:
+    put:
+      tags:
+      - "MisthReport"
+      operationId: "9516306c-f7c0-4cdb-acbe-0cf8a1a44673"
+      parameters:
+      - name: "MisthReport"
+        in: "path"
+        description: "MisthReport"
+        required: true
+        schema:
+          $ref: "#/components/schemas/MisthReport"
+      responses:
+        200:
+          description: "MisthReport response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+                items:
+                  $ref: "#/components/schemas/MisthReport"
+              examples:
+                test1:
+                  value:
+                    descfilter: "Lorem ipsum dolor si0"
+                    tablename: "Nanine"
+                    kodfilter: "1207838344"
+        default:
+          description: "error payload"
+          content:
+            application/json:
+              schema:
+                type: "string"
+    post:
+      tags:
+      - "MisthReport"
+      operationId: "5c0d1706-d63b-4ecc-a237-cd0c46cdde6c"
+      parameters:
+      - name: "MisthReport"
+        in: "path"
+        description: "MisthReport"
+        required: true
+        schema:
+          $ref: "#/components/schemas/MisthReport"
+      responses:
+        200:
+          description: "MisthReport response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+                items:
+                  $ref: "#/components/schemas/MisthReport"
+              examples:
+                test1:
+                  value:
+                    descfilter: "Lorem ipsum dolor si0"
+                    tablename: "Nanine"
+                    kodfilter: "1207838344"
+        default:
+          description: "error payload"
+          content:
+            application/json:
+              schema:
+                type: "string"
+  /MisthReportCols/{MisthReportCols}:
+    put:
+      tags:
+      - "MisthReportCols"
+      operationId: "866f3e73-e027-4167-a584-e0a7dd439955"
+      parameters:
+      - name: "MisthReportCols"
+        in: "path"
+        description: "MisthReportCols"
+        required: true
+        schema:
+          $ref: "#/components/schemas/MisthReportCols"
+      responses:
+        200:
+          description: "MisthReportCols response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+                items:
+                  $ref: "#/components/schemas/MisthReportCols"
+              examples:
+                test1:
+                  value:
+                    descfilter: "Lorem ipsum dolor si0"
+                    tablename: "Nanine"
+                    kodfilter: "1207838344"
+        default:
+          description: "error payload"
+          content:
+            application/json:
+              schema:
+                type: "string"
+    post:
+      tags:
+      - "MisthReportCols"
+      operationId: "ed0de7fa-be75-4829-b23c-9ef272d18953"
+      parameters:
+      - name: "MisthReportCols"
+        in: "path"
+        description: "MisthReportCols"
+        required: true
+        schema:
+          $ref: "#/components/schemas/MisthReportCols"
+      responses:
+        200:
+          description: "MisthReportCols response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+                items:
+                  $ref: "#/components/schemas/MisthReportCols"
+              examples:
+                test1:
+                  value:
+                    descfilter: "Lorem ipsum dolor si0"
+                    tablename: "Nanine"
+                    kodfilter: "1207838344"
+        default:
+          description: "error payload"
+          content:
+            application/json:
+              schema:
+                type: "string"
+  /MisthReportYpal/{MisthReportYpal}:
+    put:
+      tags:
+      - "MisthReportYpal"
+      operationId: "8383fcec-f04e-4b0d-b7fe-587529e9383c"
+      parameters:
+      - name: "MisthReportYpal"
+        in: "path"
+        description: "MisthReportYpal"
+        required: true
+        schema:
+          $ref: "#/components/schemas/MisthReportYpal"
+      responses:
+        200:
+          description: "MisthReportYpal response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+                items:
+                  $ref: "#/components/schemas/MisthReportYpal"
+              examples:
+                test1:
+                  value:
+                    descfilter: "Lorem ipsum dolor si0"
+                    tablename: "Nanine"
+                    kodfilter: "1207838344"
+        default:
+          description: "error payload"
+          content:
+            application/json:
+              schema:
+                type: "string"
+    post:
+      tags:
+      - "MisthReportYpal"
+      operationId: "80038370-bf7b-4c52-aefe-95a29c41c4ec"
+      parameters:
+      - name: "MisthReportYpal"
+        in: "path"
+        description: "MisthReportYpal"
+        required: true
+        schema:
+          $ref: "#/components/schemas/MisthReportYpal"
+      responses:
+        200:
+          description: "MisthReportYpal response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+                items:
+                  $ref: "#/components/schemas/MisthReportYpal"
+              examples:
+                test1:
+                  value:
+                    descfilter: "Lorem ipsum dolor si0"
+                    tablename: "Nanine"
+                    kodfilter: "1207838344"
+        default:
+          description: "error payload"
+          content:
+            application/json:
+              schema:
+                type: "string"
+  /MisthZpyvar/{MisthZpyvar}:
+    put:
+      tags:
+      - "MisthZpyvar"
+      operationId: "d51faf98-73a8-4471-a469-5a5b38c7e9bb"
+      parameters:
+      - name: "MisthZpyvar"
+        in: "path"
+        description: "MisthZpyvar"
+        required: true
+        schema:
+          $ref: "#/components/schemas/MisthZpyvar"
+      responses:
+        200:
+          description: "MisthZpyvar response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+                items:
+                  $ref: "#/components/schemas/MisthZpyvar"
+              examples:
+                test1:
+                  value:
+                    descfilter: "Lorem ipsum dolor si0"
+                    tablename: "Nanine"
+                    kodfilter: "1207838344"
+        default:
+          description: "error payload"
+          content:
+            application/json:
+              schema:
+                type: "string"
+    post:
+      tags:
+      - "MisthZpyvar"
+      operationId: "f93e25e0-1640-4407-b049-1329afebefa6"
+      parameters:
+      - name: "MisthZpyvar"
+        in: "path"
+        description: "MisthZpyvar"
+        required: true
+        schema:
+          $ref: "#/components/schemas/MisthZpyvar"
+      responses:
+        200:
+          description: "MisthZpyvar response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+                items:
+                  $ref: "#/components/schemas/MisthZpyvar"
+              examples:
+                test1:
+                  value:
+                    descfilter: "Lorem ipsum dolor si0"
+                    tablename: "Nanine"
+                    kodfilter: "1207838344"
+        default:
+          description: "error payload"
+          content:
+            application/json:
+              schema:
+                type: "string"
+  /MisthYpalYvar/{MisthYpalYvar}:
+    put:
+      tags:
+      - "MisthYpalYvar"
+      operationId: "74a53ed7-f6bc-4aa9-b3f6-2c8741893c14"
+      parameters:
+      - name: "MisthYpalYvar"
+        in: "path"
+        description: "MisthYpalYvar"
+        required: true
+        schema:
+          $ref: "#/components/schemas/MisthYpalYvar"
+      responses:
+        200:
+          description: "MisthYpalYvar response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+                items:
+                  $ref: "#/components/schemas/MisthYpalYvar"
+              examples:
+                test1:
+                  value:
+                    descfilter: "Lorem ipsum dolor si0"
+                    tablename: "Nanine"
+                    kodfilter: "1207838344"
+        default:
+          description: "error payload"
+          content:
+            application/json:
+              schema:
+                type: "string"
+    post:
+      tags:
+      - "MisthYpalYvar"
+      operationId: "203dcc31-588e-4878-ac00-a2ae3e464137"
+      parameters:
+      - name: "MisthYpalYvar"
+        in: "path"
+        description: "MisthYpalYvar"
+        required: true
+        schema:
+          $ref: "#/components/schemas/MisthYpalYvar"
+      responses:
+        200:
+          description: "MisthYpalYvar response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+                items:
+                  $ref: "#/components/schemas/MisthYpalYvar"
+              examples:
+                test1:
+                  value:
+                    descfilter: "Lorem ipsum dolor si0"
+                    tablename: "Nanine"
+                    kodfilter: "1207838344"
+        default:
+          description: "error payload"
+          content:
+            application/json:
+              schema:
+                type: "string"
+  /MisthZpstath/{MisthZpstath}:
+    put:
+      tags:
+      - "MisthZpstath"
+      operationId: "67ba12e2-d88b-4613-8808-39e8d15a8ca4"
+      parameters:
+      - name: "MisthZpstath"
+        in: "path"
+        description: "MisthZpstath"
+        required: true
+        schema:
+          $ref: "#/components/schemas/MisthZpstath"
+      responses:
+        200:
+          description: "MisthZpstath response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+                items:
+                  $ref: "#/components/schemas/MisthZpstath"
+              examples:
+                test1:
+                  value:
+                    descfilter: "Lorem ipsum dolor si0"
+                    tablename: "Nanine"
+                    kodfilter: "1207838344"
+        default:
+          description: "error payload"
+          content:
+            application/json:
+              schema:
+                type: "string"
+    post:
+      tags:
+      - "MisthZpstath"
+      operationId: "d6ca9cdb-f3cd-47b3-926f-2b2c3b8e6d19"
+      parameters:
+      - name: "MisthZpstath"
+        in: "path"
+        description: "MisthZpstath"
+        required: true
+        schema:
+          $ref: "#/components/schemas/MisthZpstath"
+      responses:
+        200:
+          description: "MisthZpstath response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+                items:
+                  $ref: "#/components/schemas/MisthZpstath"
+              examples:
+                test1:
+                  value:
+                    descfilter: "Lorem ipsum dolor si0"
+                    tablename: "Nanine"
+                    kodfilter: "1207838344"
+        default:
+          description: "error payload"
+          content:
+            application/json:
+              schema:
+                type: "string"
+  /MisthZptitlos/{MisthZptitlos}:
+    put:
+      tags:
+      - "MisthZptitlos"
+      operationId: "f2e195e6-a840-4230-a55a-5befbc254bda"
+      parameters:
+      - name: "MisthZptitlos"
+        in: "path"
+        description: "MisthZptitlos"
+        required: true
+        schema:
+          $ref: "#/components/schemas/MisthZptitlos"
+      responses:
+        200:
+          description: "MisthZptitlos response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+                items:
+                  $ref: "#/components/schemas/MisthZptitlos"
+              examples:
+                test1:
+                  value:
+                    descfilter: "Lorem ipsum dolor si0"
+                    tablename: "Nanine"
+                    kodfilter: "1207838344"
+        default:
+          description: "error payload"
+          content:
+            application/json:
+              schema:
+                type: "string"
+    post:
+      tags:
+      - "MisthZptitlos"
+      operationId: "de019fe4-11f9-4456-a2a0-88ea21603924"
+      parameters:
+      - name: "MisthZptitlos"
+        in: "path"
+        description: "MisthZptitlos"
+        required: true
+        schema:
+          $ref: "#/components/schemas/MisthZptitlos"
+      responses:
+        200:
+          description: "MisthZptitlos response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+                items:
+                  $ref: "#/components/schemas/MisthZptitlos"
+              examples:
+                test1:
+                  value:
+                    descfilter: "Lorem ipsum dolor si0"
+                    tablename: "Nanine"
+                    kodfilter: "1207838344"
+        default:
+          description: "error payload"
+          content:
+            application/json:
+              schema:
+                type: "string"
+components:
+  schemas:
+    Afxfilter:
+      required:
+      - "kodfilter"
+      properties:
+        descfilter:
+          type: "string"
+        tablename:
+          type: "string"
+      example:
+        descfilter: "Lorem ipsum dolor si0"
+        tablename: "Nanine"
+    Afxfilterd:
+      required:
+      - "kodfilterd"
+      properties:
+        kodfilter:
+          type: "integer"
+        pedio:
+          type: "string"
+        telestis:
+          type: "string"
+        timi:
+          type: "string"
+        joint:
+          type: "string"
+      example:
+        joint: "Lorem ips0"
+        timi: "Lorem ipsum dolor si0"
+        telestis: "Lorem ipsum dolor s0"
+        kodfilter: "0"
+        pedio: "Lorem ipsum dolor si0"
+    Afxinfo:
+      required:
+      - "default_id"
+      properties:
+        dbver:
+          type: "string"
+      example:
+        dbver: "Lorem ips0"
+    Afxkeygen:
+      required:
+      - "tblname"
+      properties:
+        lastid:
+          type: "integer"
+      example:
+        lastid: "0"
+    Afxoperators:
+      required:
+      - "operatorname"
+      properties:
+        operator:
+          type: "string"
+        orderno:
+          type: "integer"
+      example:
+        orderno: "0"
+        operator: "Lorem ipsum dolor si0"
+    Afxptoseis:
+      required:
+      - "onom"
+      properties:
+        gen:
+          type: "string"
+        ait:
+          type: "string"
+      example:
+        gen: "Lorem ipsum dolor si0"
+        ait: "Lorem ipsum dolor si0"
+    Afxtable:
+      required:
+      - "tablename"
+      properties:
+        tabledesc:
+          type: "string"
+      example:
+        tabledesc: "Lorem ipsum dolor si0"
+    Afxtablefields:
+      required:
+      - "fieldname"
+      - "tablename"
+      properties:
+        fielddesc:
+          type: "string"
+        sorting:
+          type: "integer"
+        fieldtype:
+          type: "string"
+        orderno:
+          type: "integer"
+      example:
+        orderno: "0"
+        sorting: "0"
+        fielddesc: "Lorem ipsum dolor si0"
+        fieldtype: "Lorem ipsum do0"
+    Afxtranslate:
+      required:
+      - "id"
+      properties:
+        el:
+          type: "string"
+        uk:
+          type: "string"
+      example:
+        uk: "Lorem ipsum dolor si0"
+        el: "Lorem ipsum dolor si0"
+    MisthZpxrisi:
+      required:
+      - "kodxrisi"
+      properties:
+        descxrisi:
+          type: "string"
+        startdate:
+          type: "string"
+        enddate:
+          type: "string"
+        maskposo:
+          type: "string"
+        maskposot:
+          type: "string"
+        maskdate:
+          type: "string"
+        eteria:
+          type: "string"
+        eteriadesc:
+          type: "string"
+        address:
+          type: "string"
+        tk:
+          type: "string"
+        city:
+          type: "string"
+        phone:
+          type: "string"
+        fax:
+          type: "string"
+        maskdate_e:
+          type: "string"
+        maskposo_e:
+          type: "string"
+        maskposot_e:
+          type: "string"
+        afm:
+          type: "string"
+        doy:
+          type: "string"
+        round:
+          type: "integer"
+        prn_logo1:
+          type: "string"
+        prn_logo2:
+          type: "string"
+        prn_logo3:
+          type: "string"
+        prn_logo4:
+          type: "string"
+        prn_logo5:
+          type: "string"
+        prn_sign1_prosf:
+          type: "string"
+        prn_sign1_name:
+          type: "string"
+        prn_sign2_prosf:
+          type: "string"
+        prn_sign2_name:
+          type: "string"
+        prn_sign3_prosf:
+          type: "string"
+        prn_sign3_name:
+          type: "string"
+        prn_notes1:
+          type: "string"
+        prn_notes2:
+          type: "string"
+        prn_notes3:
+          type: "string"
+      example:
+        prn_sign3_name: "Edin"
+        city: "Cleburne"
+        startdate: "2017-10-15"
+        prn_notes1: "0"
+        prn_sign1_prosf: "Lorem ipsum dolor si0"
+        prn_notes2: "0"
+        eteriadesc: "Lorem ipsum dolor si0"
+        prn_notes3: "0"
+        doy: "Lorem ipsum dolor si0"
+        prn_sign2_name: "Deni"
+        maskposot: "Lorem ipsum dolor si0"
+        fax: "446-927-4848"
+        eteria: "Lorem ipsum dolor si0"
+        address: "Lorem ipsum dolor si0"
+        maskposo_e: "Lorem ipsum dolor si0"
+        afm: "Lorem ipsum dolor s0"
+        prn_sign3_prosf: "Lorem ipsum dolor si0"
+        descxrisi: "Lorem ipsum dolor si0"
+        prn_sign1_name: "Hyacinthe"
+        maskdate_e: "Lorem ipsum dolor si0"
+        enddate: "2063-10-15"
+        round: 0
+        maskposo: "Lorem ipsum dolor si0"
+        phone: "426-256-8772"
+        maskdate: "Lorem ipsum dolor si0"
+        tk: "Lorem ipsum do0"
+        prn_logo1: "Lorem ipsum dolor si0"
+        prn_logo2: "Lorem ipsum dolor si0"
+        prn_logo5: "Lorem ipsum dolor si0"
+        prn_sign2_prosf: "Lorem ipsum dolor si0"
+        maskposot_e: "Lorem ipsum dolor si0"
+        prn_logo3: "Lorem ipsum dolor si0"
+        prn_logo4: "Lorem ipsum dolor si0"
+    MisthZpperiod:
+      required:
+      - "kodxrisi"
+      - "kodperiod"
+      properties:
+        descperiod:
+          type: "string"
+        orderno:
+          type: "integer"
+      example:
+        descperiod: "Lorem ipsum dolor si0"
+        orderno: 0
+    MisthZpkat:
+      required:
+      - "kodxrisi"
+      - "kodkat"
+      properties:
+        desckat:
+          type: "string"
+      example:
+        desckat: "Lorem ipsum dolor si0"
+    MisthFinal:
+      required:
+      - "kodfinal"
+      - "kodxrisi"
+      properties:
+        descfinal:
+          type: "string"
+        title:
+          type: "string"
+        datefinal:
+          type: "string"
+        kodkat:
+          type: "string"
+        kodperiod:
+          type: "string"
+        aa:
+          type: "integer"
+      example:
+        datefinal: "2008-10-15"
+        aa: "0"
+        descfinal: "Lorem ipsum dolor si0"
+        title: "0"
+        kodperiod: "L0"
+        kodkat: "L0"
+    MisthZptmima:
+      required:
+      - "kodxrisi"
+      - "kodtmima"
+      properties:
+        desctmima:
+          type: "string"
+      example:
+        desctmima: "Lorem ipsum dolor si0"
+    MisthZpidikot:
+      required:
+      - "kodxrisi"
+      - "kodidikot"
+      properties:
+        descidikot:
+          type: "string"
+      example:
+        descidikot: "Lorem ipsum dolor si0"
+    MisthZpthesi:
+      required:
+      - "kodxrisi"
+      - "kodthesi"
+      properties:
+        descthesi:
+          type: "string"
+      example:
+        descthesi: "Lorem ipsum dolor si0"
+    MisthZptamio:
+      required:
+      - "kodtamio"
+      - "kodxrisi"
+      properties:
+        desctamio:
+          type: "string"
+      example:
+        desctamio: "Lorem ipsum dolor si0"
+    MisthZpoikog:
+      required:
+      - "kodxrisi"
+      - "kodoikog"
+      properties:
+        descoikog:
+          type: "string"
+      example:
+        descoikog: "Lorem ipsum dolor si0"
+    MisthYpal:
+      required:
+      - "kodxrisi"
+      - "kodypal"
+      properties:
+        surname:
+          type: "string"
+        name:
+          type: "string"
+        fathername:
+          type: "string"
+        adt:
+          type: "string"
+        mitroo:
+          type: "string"
+        afm:
+          type: "string"
+        doy:
+          type: "string"
+        kodtitlos:
+          type: "string"
+        birthdate:
+          type: "string"
+        homephone:
+          type: "string"
+        mobilphone:
+          type: "string"
+        sex:
+          type: "string"
+        spouse:
+          type: "string"
+        childs:
+          type: "integer"
+        prostmeli:
+          type: "integer"
+        city:
+          type: "string"
+        area:
+          type: "string"
+        address:
+          type: "string"
+        tk:
+          type: "string"
+        email:
+          type: "string"
+        kodtmima:
+          type: "string"
+        kodidikot:
+          type: "string"
+        jobtitle:
+          type: "string"
+        hireddate:
+          type: "string"
+        rehireddate:
+          type: "string"
+        termdate:
+          type: "string"
+        termreason:
+          type: "string"
+        jobphone:
+          type: "string"
+        intphone:
+          type: "string"
+        klimakio:
+          type: "integer"
+        bathmos:
+          type: "string"
+        klados:
+          type: "string"
+        bank:
+          type: "string"
+        bankno:
+          type: "string"
+        exeldate:
+          type: "string"
+        kodthesi:
+          type: "string"
+        kodoikog:
+          type: "string"
+        kodtamio:
+          type: "string"
+        mothername:
+          type: "string"
+        newexeldate:
+          type: "string"
+      example:
+        rehireddate: "1998-10-15"
+        bathmos: "0"
+        birthdate: "2012-10-15"
+        mitroo: "Lorem ipsum dolor s0"
+        homephone: "815-558-7391"
+        city: "Grand Mara"
+        intphone: "782-797-2839"
+        kodoikog: "L0"
+        klimakio: 0
+        kodtitlos: "L0"
+        childs: 0
+        spouse: "Lorem ipsum dolor si0"
+        doy: "Lorem ipsum dolor si0"
+        kodtmima: "L0"
+        termdate: "2052-10-15"
+        mobilphone: "474-452-9574"
+        bank: "Lorem ipsum dolor si0"
+        surname: "Tabitha"
+        mothername: "Jelene"
+        email: "Larine@dummy.com"
+        klados: "Lorem ips0"
+        area: "Lorem ipsum dolor si0"
+        kodtamio: "L0"
+        newexeldate: "2018-10-15"
+        address: "Lorem ipsum dolor si0"
+        jobtitle: "Lorem ipsum dolor si0"
+        hireddate: "1951-10-15"
+        sex: "0"
+        afm: "Lorem ips0"
+        kodidikot: "L0"
+        termreason: "Lorem ipsum dolor si0"
+        kodthesi: "L0"
+        adt: "Lorem ips0"
+        fathername: "Petronella"
+        exeldate: "2061-10-15"
+        tk: "Lorem ips0"
+        jobphone: "282-829-1984"
+        name: "Atlante"
+        bankno: "Lorem ipsum dolor si0"
+        prostmeli: 0
+    MisthFinalYpal:
+      required:
+      - "kodfinal"
+      - "kodxrisi"
+      - "kodypal"
+      properties:
+        plirdate:
+          type: "string"
+      example:
+        plirdate: "1903-10-15"
+    MisthZpepidom:
+      required:
+      - "kodxrisi"
+      - "kodepidom"
+      properties:
+        descepidom:
+          type: "string"
+        hasforo:
+          type: "integer"
+        expr:
+          type: "string"
+        isasf:
+          type: "integer"
+        autoforos:
+          type: "integer"
+        hasasf:
+          type: "integer"
+      example:
+        descepidom: "Lorem ipsum dolor si0"
+        hasforo: 0
+        isasf: 0
+        expr: "0"
+        autoforos: 0
+        hasasf: 0
+    MisthFinalYpalEpidom:
+      required:
+      - "kodfinal"
+      - "kodxrisi"
+      - "kodepidom"
+      - "kodypal"
+      properties:
+        poso:
+          type: "number"
+        aa:
+          type: "integer"
+        notes:
+          type: "string"
+      example:
+        aa: 0
+        notes: "0"
+        poso: "0"
+    MisthZpkrat:
+      required:
+      - "kodkrat"
+      - "kodxrisi"
+      properties:
+        desckrat:
+          type: "string"
+        isforos:
+          type: "integer"
+        isasf:
+          type: "integer"
+        isautoforos:
+          type: "integer"
+      example:
+        isautoforos: 0
+        desckrat: "Lorem ipsum dolor si0"
+        isasf: 0
+        isforos: 0
+    MisthKratapod:
+      required:
+      - "kodkratapod"
+      properties:
+        kodxrisi:
+          type: "string"
+        desckratapod:
+          type: "string"
+        apoddate:
+          type: "string"
+      example:
+        desckratapod: "Lorem ipsum dolor si0"
+        kodxrisi: "Lor0"
+        apoddate: "1938-10-15"
+    MisthFinalYpalKrat:
+      required:
+      - "kodfinal"
+      - "kodkrat"
+      - "kodxrisi"
+      - "kodypal"
+      properties:
+        poso:
+          type: "number"
+        aa:
+          type: "integer"
+        notes:
+          type: "string"
+        kodkratapod:
+          type: "integer"
+      example:
+        aa: 0
+        notes: "0"
+        kodkratapod: "0"
+        poso: "0"
+    MisthFylo:
+      required:
+      - "kodfylo"
+      - "kodxrisi"
+      properties:
+        descfylo:
+          type: "string"
+      example:
+        descfylo: "Lorem ipsum dolor si0"
+    MisthFyloEpidom:
+      required:
+      - "kodfylo"
+      - "kodxrisi"
+      - "kodepidom"
+      properties:
+        expr:
+          type: "string"
+        aa:
+          type: "integer"
+        notes:
+          type: "string"
+      example:
+        aa: 0
+        notes: "0"
+        expr: "0"
+    MisthFyloKrat:
+      required:
+      - "kodfylo"
+      - "kodkrat"
+      - "kodxrisi"
+      properties:
+        expr:
+          type: "string"
+        aa:
+          type: "integer"
+        notes:
+          type: "string"
+      example:
+        aa: 0
+        notes: "0"
+        expr: "0"
+    MisthFyloYpal:
+      required:
+      - "kodfylo"
+      - "kodxrisi"
+      - "kodypal"
+      properties: {}
+      example: {}
+    MisthReport:
+      required:
+      - "kodxrisi"
+      - "kodreport"
+      properties:
+        descreport:
+          type: "string"
+        subtitle:
+          type: "string"
+        print_margin_top:
+          type: "integer"
+        print_margin_bottom:
+          type: "integer"
+        print_margin_left:
+          type: "integer"
+        print_margin_right:
+          type: "integer"
+        print_orientation:
+          type: "integer"
+        print_paper_size:
+          type: "integer"
+        print_scale:
+          type: "integer"
+        prn_notes1:
+          type: "string"
+        prn_notes2:
+          type: "string"
+      example:
+        print_margin_left: 0
+        print_margin_right: 0
+        print_orientation: 0
+        subtitle: "0"
+        print_margin_bottom: 0
+        descreport: "Lorem ipsum dolor si0"
+        print_scale: 0
+        prn_notes1: "0"
+        prn_notes2: "0"
+        print_margin_top: 0
+        print_paper_size: 0
+    MisthReportCols:
+      required:
+      - "kodcol"
+      - "kodxrisi"
+      - "kodreport"
+      properties:
+        expr:
+          type: "string"
+        header_text:
+          type: "string"
+        width:
+          type: "integer"
+        aa:
+          type: "integer"
+      example:
+        aa: 0
+        header_text: "Lorem ipsum dolor si0"
+        width: 0
+        expr: "0"
+    MisthReportYpal:
+      required:
+      - "kodxrisi"
+      - "kodreport"
+      - "kodypal"
+      properties: {}
+      example: {}
+    MisthZpyvar:
+      required:
+      - "kodyvar"
+      - "kodxrisi"
+      properties:
+        descyvar:
+          type: "string"
+        expr:
+          type: "string"
+      example:
+        expr: "0"
+        descyvar: "Lorem ipsum dolor si0"
+    MisthYpalYvar:
+      required:
+      - "kodyvar"
+      - "kodxrisi"
+      - "kodypal"
+      properties:
+        expr:
+          type: "string"
+        aa:
+          type: "integer"
+      example:
+        aa: 0
+        expr: "0"
+    MisthZpstath:
+      required:
+      - "kodxrisi"
+      - "kodstath"
+      properties:
+        descstath:
+          type: "string"
+        poso:
+          type: "number"
+      example:
+        descstath: "Lorem ipsum dolor si0"
+        poso: "0"
+    MisthZptitlos:
+      required:
+      - "kodxrisi"
+      - "kodtitlos"
+      properties:
+        desctitlos:
+          type: "string"
+      example:
+        desctitlos: "Lorem ips0"

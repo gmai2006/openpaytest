@@ -1,0 +1,92 @@
+[
+  {
+    "aa": 0,
+    "headerText": "Lorem ipsum dolor si0",
+    "width": 0,
+    "expr": "0",
+    "kodcol": 699788017,
+    "kodxrisi": "223f1dc1-f619-49eb-adf5-cdbb94ca3c9d",
+    "kodreport": "L"
+  },
+  {
+    "aa": 1,
+    "headerText": "Lorem ipsum dolor si1",
+    "width": 1,
+    "expr": "1",
+    "kodcol": 446170393,
+    "kodxrisi": "b3729e5c-14ae-4dff-a31c-aa5edb7b3d21",
+    "kodreport": "L"
+  },
+  {
+    "aa": 2,
+    "headerText": "Lorem ipsum dolor si2",
+    "width": 2,
+    "expr": "2",
+    "kodcol": 1549207839,
+    "kodxrisi": "f0e8b7da-cb80-489e-bcc3-42fa6b36f359",
+    "kodreport": "L"
+  },
+  {
+    "aa": 3,
+    "headerText": "Lorem ipsum dolor si3",
+    "width": 3,
+    "expr": "3",
+    "kodcol": 1608738891,
+    "kodxrisi": "b8ec976a-9b38-460f-ad42-4aff315c3701",
+    "kodreport": "L"
+  },
+  {
+    "aa": 4,
+    "headerText": "Lorem ipsum dolor si4",
+    "width": 4,
+    "expr": "4",
+    "kodcol": 480802556,
+    "kodxrisi": "d2d40a47-e6a1-4eda-b7b8-34f0d975c6ae",
+    "kodreport": "L"
+  },
+  {
+    "aa": 5,
+    "headerText": "Lorem ipsum dolor si5",
+    "width": 5,
+    "expr": "5",
+    "kodcol": 477956889,
+    "kodxrisi": "1300a136-ae91-4cfe-b1f0-df3181e24943",
+    "kodreport": "L"
+  },
+  {
+    "aa": 6,
+    "headerText": "Lorem ipsum dolor si6",
+    "width": 6,
+    "expr": "6",
+    "kodcol": 375747717,
+    "kodxrisi": "541ebdec-9dad-451e-931e-8313b095d140",
+    "kodreport": "L"
+  },
+  {
+    "aa": 7,
+    "headerText": "Lorem ipsum dolor si7",
+    "width": 7,
+    "expr": "7",
+    "kodcol": 707441732,
+    "kodxrisi": "9128e72e-075c-4f21-a0de-662bbac96d32",
+    "kodreport": "L"
+  },
+  {
+    "aa": 8,
+    "headerText": "Lorem ipsum dolor si8",
+    "width": 8,
+    "expr": "8",
+    "kodcol": 1420362230,
+    "kodxrisi": "113714be-2f90-4a12-b616-731c118e5fa9",
+    "kodreport": "L"
+  },
+  {
+    "aa": 9,
+    "headerText": "Lorem ipsum dolor si9",
+    "width": 9,
+    "expr": "9",
+    "kodcol": 527899161,
+    "kodxrisi": "2d01df6f-c4b7-458f-a228-1b26127b10db",
+    "kodreport": "L"
+  }
+]

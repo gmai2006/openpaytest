@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.0"
+             xmlns="http://java.sun.com/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://java.sun.com/xml/ns/persistence
+                       http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
+
+<persistence-unit name="test" transaction-type="JTA">
+	<provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+	<jta-data-source>java:jboss/datasources/ExampleDS</jta-data-source>
+
+	<class>com.openpay.test.entity.Afxfilter</class> 
+	<class>com.openpay.test.entity.Afxfilterd</class> 
+	<class>com.openpay.test.entity.Afxinfo</class> 
+	<class>com.openpay.test.entity.Afxkeygen</class> 
+	<class>com.openpay.test.entity.Afxoperators</class> 
+	<class>com.openpay.test.entity.Afxptoseis</class> 
+	<class>com.openpay.test.entity.Afxtable</class> 
+	<class>com.openpay.test.entity.Afxtablefields</class> 
+	<class>com.openpay.test.entity.Afxtranslate</class> 
+	<class>com.openpay.test.entity.MisthZpxrisi</class> 
+	<class>com.openpay.test.entity.MisthZpperiod</class> 
+	<class>com.openpay.test.entity.MisthZpkat</class> 
+	<class>com.openpay.test.entity.MisthFinal</class> 
+	<class>com.openpay.test.entity.MisthZptmima</class> 
+	<class>com.openpay.test.entity.MisthZpidikot</class> 
+	<class>com.openpay.test.entity.MisthZpthesi</class> 
+	<class>com.openpay.test.entity.MisthZptamio</class> 
+	<class>com.openpay.test.entity.MisthZpoikog</class> 
+	<class>com.openpay.test.entity.MisthYpal</class> 
+	<class>com.openpay.test.entity.MisthFinalYpal</class> 
+	<class>com.openpay.test.entity.MisthZpepidom</class> 
+	<class>com.openpay.test.entity.MisthFinalYpalEpidom</class> 
+	<class>com.openpay.test.entity.MisthZpkrat</class> 
+	<class>com.openpay.test.entity.MisthKratapod</class> 
+	<class>com.openpay.test.entity.MisthFinalYpalKrat</class> 
+	<class>com.openpay.test.entity.MisthFylo</class> 
+	<class>com.openpay.test.entity.MisthFyloEpidom</class> 
+	<class>com.openpay.test.entity.MisthFyloKrat</class> 
+	<class>com.openpay.test.entity.MisthFyloYpal</class> 
+	<class>com.openpay.test.entity.MisthReport</class> 
+	<class>com.openpay.test.entity.MisthReportCols</class> 
+	<class>com.openpay.test.entity.MisthReportYpal</class> 
+	<class>com.openpay.test.entity.MisthZpyvar</class> 
+	<class>com.openpay.test.entity.MisthYpalYvar</class> 
+	<class>com.openpay.test.entity.MisthZpstath</class> 
+	<class>com.openpay.test.entity.MisthZptitlos</class> 
+	<class>com.openpay.test.entity.DataLoadingStatus</class> 
+  <exclude-unlisted-classes>false</exclude-unlisted-classes>
+  <properties>
+    <property name="hibernate.hbm2ddl.auto" value="update"/>
+    <property name="javax.persistence.jdbc.url" value="jdbc:h2:mem:test;"/>
+        <property name="javax.persistence.jdbc.driver" value="org.h2.Driver"/>
+        <property name="hibernate.dialect" value="org.hibernate.dialect.H2Dialect"></property>
+        <property name="hibernate.show_sql" value="true"/>
+  </properties>
+  </persistence-unit>
+</persistence>

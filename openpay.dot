@@ -1,0 +1,604 @@
+digraph G {
+    graph [rankdir=TB]
+    node [shape=none, margin=0]
+    edge [arrowhead=crow, arrowtail=none, dir=both]
+    afxfilter [label=<
+        <table border="0" cellborder="1" cellspacing="0" cellpadding="4">
+            <tr><td align="left">kodfilter: BIGINT(20) NOT NULL PRIMARY</td></tr> 
+
+            <tr><td align="left">kodfilter: BIGINT(20) NOT NULL</td></tr> 
+            <tr><td align="left">descfilter: VARCHAR(50) NOT NULL</td></tr> 
+            <tr><td align="left">tablename: VARCHAR(50) NOT NULL</td></tr> 
+
+        </table>
+    >]
+
+    afxfilterd [label=<
+        <table border="0" cellborder="1" cellspacing="0" cellpadding="4">
+            <tr><td align="left">kodfilterd: BIGINT(20) NOT NULL PRIMARY</td></tr> 
+
+            <tr><td align="left">kodfilterd: BIGINT(20) NOT NULL</td></tr> 
+            <tr><td align="left">kodfilter: BIGINT(20) NOT NULL</td></tr> 
+            <tr><td align="left">pedio: VARCHAR(50) NOT NULL</td></tr> 
+            <tr><td align="left">telestis: VARCHAR(20) NOT NULL</td></tr> 
+            <tr><td align="left">timi: VARCHAR(50) NOT NULL</td></tr> 
+            <tr><td align="left">joint: VARCHAR(10) </td></tr> 
+
+        </table>
+    >]
+    afxfilterd -> afxfilter; 
+
+    afxinfo [label=<
+        <table border="0" cellborder="1" cellspacing="0" cellpadding="4">
+            <tr><td align="left">default_id: VARCHAR(64) NOT NULL PRIMARY</td></tr> 
+
+            <tr><td align="left">dbver: VARCHAR(10) </td></tr> 
+            <tr><td align="left">default_id: VARCHAR(64) NOT NULL</td></tr> 
+
+        </table>
+    >]
+
+    afxkeygen [label=<
+        <table border="0" cellborder="1" cellspacing="0" cellpadding="4">
+            <tr><td align="left">tblname: VARCHAR(50) NOT NULL PRIMARY</td></tr> 
+
+            <tr><td align="left">tblname: VARCHAR(50) NOT NULL</td></tr> 
+            <tr><td align="left">lastid: BIGINT(20) </td></tr> 
+
+        </table>
+    >]
+
+    afxoperators [label=<
+        <table border="0" cellborder="1" cellspacing="0" cellpadding="4">
+            <tr><td align="left">operatorname: VARCHAR(50) NOT NULL PRIMARY</td></tr> 
+
+            <tr><td align="left">operatorname: VARCHAR(50) NOT NULL</td></tr> 
+            <tr><td align="left">operator: VARCHAR(50) NOT NULL</td></tr> 
+            <tr><td align="left">orderno: TINYINT(4) </td></tr> 
+
+        </table>
+    >]
+
+    afxptoseis [label=<
+        <table border="0" cellborder="1" cellspacing="0" cellpadding="4">
+            <tr><td align="left">onom: VARCHAR(50) NOT NULL PRIMARY</td></tr> 
+
+            <tr><td align="left">onom: VARCHAR(50) NOT NULL</td></tr> 
+            <tr><td align="left">gen: VARCHAR(50) </td></tr> 
+            <tr><td align="left">ait: VARCHAR(50) </td></tr> 
+
+        </table>
+    >]
+
+    afxtable [label=<
+        <table border="0" cellborder="1" cellspacing="0" cellpadding="4">
+            <tr><td align="left">tablename: VARCHAR(50) NOT NULL PRIMARY</td></tr> 
+
+            <tr><td align="left">tablename: VARCHAR(50) NOT NULL</td></tr> 
+            <tr><td align="left">tabledesc: VARCHAR(50) NOT NULL</td></tr> 
+
+        </table>
+    >]
+
+    afxtablefields [label=<
+        <table border="0" cellborder="1" cellspacing="0" cellpadding="4">
+            <tr><td align="left">fieldname: VARCHAR(70) NOT NULL PRIMARY</td></tr> 
+            <tr><td align="left">tablename: VARCHAR(50) NOT NULL PRIMARY</td></tr> 
+
+            <tr><td align="left">tablename: VARCHAR(50) NOT NULL</td></tr> 
+            <tr><td align="left">fieldname: VARCHAR(70) NOT NULL</td></tr> 
+            <tr><td align="left">fielddesc: VARCHAR(70) NOT NULL</td></tr> 
+            <tr><td align="left">sorting: TINYINT(1) </td></tr> 
+            <tr><td align="left">fieldtype: VARCHAR(15) NOT NULL</td></tr> 
+            <tr><td align="left">orderno: BIGINT(20) </td></tr> 
+
+        </table>
+    >]
+    afxtablefields -> afxtable; 
+
+    afxtranslate [label=<
+        <table border="0" cellborder="1" cellspacing="0" cellpadding="4">
+            <tr><td align="left">id: BIGINT(20) NOT NULL PRIMARY</td></tr> 
+
+            <tr><td align="left">id: BIGINT(20) NOT NULL</td></tr> 
+            <tr><td align="left">el: VARCHAR(255) </td></tr> 
+            <tr><td align="left">uk: VARCHAR(255) </td></tr> 
+
+        </table>
+    >]
+
+    misth_zpxrisi [label=<
+        <table border="0" cellborder="1" cellspacing="0" cellpadding="4">
+            <tr><td align="left">kodxrisi: VARCHAR(4) NOT NULL PRIMARY</td></tr> 
+
+            <tr><td align="left">kodxrisi: VARCHAR(4) NOT NULL</td></tr> 
+            <tr><td align="left">descxrisi: VARCHAR(50) NOT NULL</td></tr> 
+            <tr><td align="left">startdate: DATE(0) NOT NULL</td></tr> 
+            <tr><td align="left">enddate: DATE(0) NOT NULL</td></tr> 
+            <tr><td align="left">maskposo: VARCHAR(50) </td></tr> 
+            <tr><td align="left">maskposot: VARCHAR(50) </td></tr> 
+            <tr><td align="left">maskdate: VARCHAR(50) </td></tr> 
+            <tr><td align="left">eteria: VARCHAR(100) </td></tr> 
+            <tr><td align="left">eteriadesc: VARCHAR(100) </td></tr> 
+            <tr><td align="left">address: VARCHAR(100) </td></tr> 
+            <tr><td align="left">tk: VARCHAR(15) </td></tr> 
+            <tr><td align="left">city: VARCHAR(50) </td></tr> 
+            <tr><td align="left">phone: VARCHAR(100) </td></tr> 
+            <tr><td align="left">fax: VARCHAR(100) </td></tr> 
+            <tr><td align="left">maskdate_e: VARCHAR(50) </td></tr> 
+            <tr><td align="left">maskposo_e: VARCHAR(50) </td></tr> 
+            <tr><td align="left">maskposot_e: VARCHAR(50) </td></tr> 
+            <tr><td align="left">afm: VARCHAR(20) </td></tr> 
+            <tr><td align="left">doy: VARCHAR(100) </td></tr> 
+            <tr><td align="left">round: INTEGER(11) </td></tr> 
+            <tr><td align="left">prn_logo1: VARCHAR(100) </td></tr> 
+            <tr><td align="left">prn_logo2: VARCHAR(100) </td></tr> 
+            <tr><td align="left">prn_logo3: VARCHAR(100) </td></tr> 
+            <tr><td align="left">prn_logo4: VARCHAR(100) </td></tr> 
+            <tr><td align="left">prn_logo5: VARCHAR(100) </td></tr> 
+            <tr><td align="left">prn_sign1_prosf: VARCHAR(100) </td></tr> 
+            <tr><td align="left">prn_sign1_name: VARCHAR(100) </td></tr> 
+            <tr><td align="left">prn_sign2_prosf: VARCHAR(100) </td></tr> 
+            <tr><td align="left">prn_sign2_name: VARCHAR(100) </td></tr> 
+            <tr><td align="left">prn_sign3_prosf: VARCHAR(100) </td></tr> 
+            <tr><td align="left">prn_sign3_name: VARCHAR(100) </td></tr> 
+            <tr><td align="left">prn_notes1: VARCHAR(0) </td></tr> 
+            <tr><td align="left">prn_notes2: VARCHAR(0) </td></tr> 
+            <tr><td align="left">prn_notes3: VARCHAR(0) </td></tr> 
+
+        </table>
+    >]
+
+    misth_zpperiod [label=<
+        <table border="0" cellborder="1" cellspacing="0" cellpadding="4">
+            <tr><td align="left">kodxrisi: VARCHAR(4) NOT NULL PRIMARY</td></tr> 
+            <tr><td align="left">kodperiod: CHAR(2) NOT NULL PRIMARY</td></tr> 
+
+            <tr><td align="left">kodperiod: CHAR(2) NOT NULL</td></tr> 
+            <tr><td align="left">kodxrisi: VARCHAR(4) NOT NULL</td></tr> 
+            <tr><td align="left">descperiod: VARCHAR(50) NOT NULL</td></tr> 
+            <tr><td align="left">orderno: INTEGER(11) </td></tr> 
+
+        </table>
+    >]
+    misth_zpperiod -> misth_zpxrisi; 
+
+    misth_zpkat [label=<
+        <table border="0" cellborder="1" cellspacing="0" cellpadding="4">
+            <tr><td align="left">kodxrisi: VARCHAR(4) NOT NULL PRIMARY</td></tr> 
+            <tr><td align="left">kodkat: CHAR(2) NOT NULL PRIMARY</td></tr> 
+
+            <tr><td align="left">kodkat: CHAR(2) NOT NULL</td></tr> 
+            <tr><td align="left">kodxrisi: VARCHAR(4) NOT NULL</td></tr> 
+            <tr><td align="left">desckat: VARCHAR(50) NOT NULL</td></tr> 
+
+        </table>
+    >]
+    misth_zpkat -> misth_zpxrisi; 
+
+    misth_final [label=<
+        <table border="0" cellborder="1" cellspacing="0" cellpadding="4">
+            <tr><td align="left">kodfinal: BIGINT(20) NOT NULL PRIMARY</td></tr> 
+            <tr><td align="left">kodxrisi: VARCHAR(4) NOT NULL PRIMARY</td></tr> 
+
+            <tr><td align="left">kodfinal: BIGINT(20) NOT NULL</td></tr> 
+            <tr><td align="left">kodxrisi: VARCHAR(4) NOT NULL</td></tr> 
+            <tr><td align="left">descfinal: VARCHAR(100) NOT NULL</td></tr> 
+            <tr><td align="left">title: VARCHAR(0) </td></tr> 
+            <tr><td align="left">datefinal: DATE(0) NOT NULL</td></tr> 
+            <tr><td align="left">kodkat: CHAR(2) </td></tr> 
+            <tr><td align="left">kodperiod: CHAR(2) </td></tr> 
+            <tr><td align="left">aa: BIGINT(20) </td></tr> 
+
+        </table>
+    >]
+    misth_final -> misth_zpperiod; 
+    misth_final -> misth_zpxrisi; 
+    misth_final -> misth_zpkat; 
+
+    misth_zptmima [label=<
+        <table border="0" cellborder="1" cellspacing="0" cellpadding="4">
+            <tr><td align="left">kodxrisi: VARCHAR(4) NOT NULL PRIMARY</td></tr> 
+            <tr><td align="left">kodtmima: CHAR(2) NOT NULL PRIMARY</td></tr> 
+
+            <tr><td align="left">kodtmima: CHAR(2) NOT NULL</td></tr> 
+            <tr><td align="left">kodxrisi: VARCHAR(4) NOT NULL</td></tr> 
+            <tr><td align="left">desctmima: VARCHAR(50) NOT NULL</td></tr> 
+
+        </table>
+    >]
+    misth_zptmima -> misth_zpxrisi; 
+
+    misth_zpidikot [label=<
+        <table border="0" cellborder="1" cellspacing="0" cellpadding="4">
+            <tr><td align="left">kodxrisi: VARCHAR(4) NOT NULL PRIMARY</td></tr> 
+            <tr><td align="left">kodidikot: CHAR(2) NOT NULL PRIMARY</td></tr> 
+
+            <tr><td align="left">kodidikot: CHAR(2) NOT NULL</td></tr> 
+            <tr><td align="left">kodxrisi: VARCHAR(4) NOT NULL</td></tr> 
+            <tr><td align="left">descidikot: VARCHAR(50) NOT NULL</td></tr> 
+
+        </table>
+    >]
+    misth_zpidikot -> misth_zpxrisi; 
+
+    misth_zpthesi [label=<
+        <table border="0" cellborder="1" cellspacing="0" cellpadding="4">
+            <tr><td align="left">kodxrisi: VARCHAR(4) NOT NULL PRIMARY</td></tr> 
+            <tr><td align="left">kodthesi: CHAR(2) NOT NULL PRIMARY</td></tr> 
+
+            <tr><td align="left">kodthesi: CHAR(2) NOT NULL</td></tr> 
+            <tr><td align="left">kodxrisi: VARCHAR(4) NOT NULL</td></tr> 
+            <tr><td align="left">descthesi: VARCHAR(50) NOT NULL</td></tr> 
+
+        </table>
+    >]
+    misth_zpthesi -> misth_zpxrisi; 
+
+    misth_zptamio [label=<
+        <table border="0" cellborder="1" cellspacing="0" cellpadding="4">
+            <tr><td align="left">kodtamio: CHAR(2) NOT NULL PRIMARY</td></tr> 
+            <tr><td align="left">kodxrisi: VARCHAR(4) NOT NULL PRIMARY</td></tr> 
+
+            <tr><td align="left">kodtamio: CHAR(2) NOT NULL</td></tr> 
+            <tr><td align="left">kodxrisi: VARCHAR(4) NOT NULL</td></tr> 
+            <tr><td align="left">desctamio: VARCHAR(50) NOT NULL</td></tr> 
+
+        </table>
+    >]
+    misth_zptamio -> misth_zpxrisi; 
+
+    misth_zpoikog [label=<
+        <table border="0" cellborder="1" cellspacing="0" cellpadding="4">
+            <tr><td align="left">kodxrisi: VARCHAR(4) NOT NULL PRIMARY</td></tr> 
+            <tr><td align="left">kodoikog: CHAR(2) NOT NULL PRIMARY</td></tr> 
+
+            <tr><td align="left">kodoikog: CHAR(2) NOT NULL</td></tr> 
+            <tr><td align="left">kodxrisi: VARCHAR(4) NOT NULL</td></tr> 
+            <tr><td align="left">descoikog: VARCHAR(50) NOT NULL</td></tr> 
+
+        </table>
+    >]
+    misth_zpoikog -> misth_zpxrisi; 
+
+    misth_ypal [label=<
+        <table border="0" cellborder="1" cellspacing="0" cellpadding="4">
+            <tr><td align="left">kodxrisi: VARCHAR(4) NOT NULL PRIMARY</td></tr> 
+            <tr><td align="left">kodypal: BIGINT(20) NOT NULL PRIMARY</td></tr> 
+
+            <tr><td align="left">kodypal: BIGINT(20) NOT NULL</td></tr> 
+            <tr><td align="left">kodxrisi: VARCHAR(4) NOT NULL</td></tr> 
+            <tr><td align="left">surname: VARCHAR(70) NOT NULL</td></tr> 
+            <tr><td align="left">name: VARCHAR(30) </td></tr> 
+            <tr><td align="left">fathername: VARCHAR(30) </td></tr> 
+            <tr><td align="left">adt: VARCHAR(10) </td></tr> 
+            <tr><td align="left">mitroo: VARCHAR(20) </td></tr> 
+            <tr><td align="left">afm: VARCHAR(10) </td></tr> 
+            <tr><td align="left">doy: VARCHAR(50) </td></tr> 
+            <tr><td align="left">kodtitlos: CHAR(2) </td></tr> 
+            <tr><td align="left">birthdate: DATE(0) </td></tr> 
+            <tr><td align="left">homephone: VARCHAR(50) </td></tr> 
+            <tr><td align="left">mobilphone: VARCHAR(50) </td></tr> 
+            <tr><td align="left">sex: CHAR(1) </td></tr> 
+            <tr><td align="left">spouse: VARCHAR(100) </td></tr> 
+            <tr><td align="left">childs: INTEGER(11) </td></tr> 
+            <tr><td align="left">prostmeli: INTEGER(11) </td></tr> 
+            <tr><td align="left">city: VARCHAR(50) </td></tr> 
+            <tr><td align="left">area: VARCHAR(50) </td></tr> 
+            <tr><td align="left">address: VARCHAR(100) </td></tr> 
+            <tr><td align="left">tk: VARCHAR(10) </td></tr> 
+            <tr><td align="left">email: VARCHAR(100) </td></tr> 
+            <tr><td align="left">kodtmima: CHAR(2) </td></tr> 
+            <tr><td align="left">kodidikot: CHAR(2) </td></tr> 
+            <tr><td align="left">jobtitle: VARCHAR(100) </td></tr> 
+            <tr><td align="left">hireddate: DATE(0) </td></tr> 
+            <tr><td align="left">rehireddate: DATE(0) </td></tr> 
+            <tr><td align="left">termdate: DATE(0) </td></tr> 
+            <tr><td align="left">termreason: VARCHAR(100) </td></tr> 
+            <tr><td align="left">jobphone: VARCHAR(50) </td></tr> 
+            <tr><td align="left">intphone: VARCHAR(20) </td></tr> 
+            <tr><td align="left">klimakio: INTEGER(11) </td></tr> 
+            <tr><td align="left">bathmos: CHAR(1) </td></tr> 
+            <tr><td align="left">klados: VARCHAR(10) </td></tr> 
+            <tr><td align="left">bank: VARCHAR(100) </td></tr> 
+            <tr><td align="left">bankno: VARCHAR(50) </td></tr> 
+            <tr><td align="left">exeldate: DATE(0) </td></tr> 
+            <tr><td align="left">kodthesi: CHAR(2) </td></tr> 
+            <tr><td align="left">kodoikog: CHAR(2) </td></tr> 
+            <tr><td align="left">kodtamio: CHAR(2) </td></tr> 
+            <tr><td align="left">mothername: VARCHAR(30) </td></tr> 
+            <tr><td align="left">newexeldate: DATE(0) </td></tr> 
+
+        </table>
+    >]
+    misth_ypal -> misth_zpxrisi; 
+    misth_ypal -> misth_zptmima; 
+    misth_ypal -> misth_zpidikot; 
+    misth_ypal -> misth_zpthesi; 
+    misth_ypal -> misth_zptamio; 
+    misth_ypal -> misth_zpoikog; 
+
+    misth_final_ypal [label=<
+        <table border="0" cellborder="1" cellspacing="0" cellpadding="4">
+            <tr><td align="left">kodfinal: BIGINT(20) NOT NULL PRIMARY</td></tr> 
+            <tr><td align="left">kodxrisi: VARCHAR(4) NOT NULL PRIMARY</td></tr> 
+            <tr><td align="left">kodypal: BIGINT(20) NOT NULL PRIMARY</td></tr> 
+
+            <tr><td align="left">kodfinal: BIGINT(20) NOT NULL</td></tr> 
+            <tr><td align="left">kodypal: BIGINT(20) NOT NULL</td></tr> 
+            <tr><td align="left">kodxrisi: VARCHAR(4) NOT NULL</td></tr> 
+            <tr><td align="left">plirdate: DATE(0) </td></tr> 
+
+        </table>
+    >]
+    misth_final_ypal -> misth_final; 
+    misth_final_ypal -> misth_ypal; 
+
+    misth_zpepidom [label=<
+        <table border="0" cellborder="1" cellspacing="0" cellpadding="4">
+            <tr><td align="left">kodxrisi: VARCHAR(4) NOT NULL PRIMARY</td></tr> 
+            <tr><td align="left">kodepidom: VARCHAR(20) NOT NULL PRIMARY</td></tr> 
+
+            <tr><td align="left">kodepidom: VARCHAR(20) NOT NULL</td></tr> 
+            <tr><td align="left">kodxrisi: VARCHAR(4) NOT NULL</td></tr> 
+            <tr><td align="left">descepidom: VARCHAR(50) NOT NULL</td></tr> 
+            <tr><td align="left">hasforo: INTEGER(11) </td></tr> 
+            <tr><td align="left">expr: VARCHAR(0) </td></tr> 
+            <tr><td align="left">isasf: INTEGER(11) </td></tr> 
+            <tr><td align="left">autoforos: INTEGER(11) </td></tr> 
+            <tr><td align="left">hasasf: INTEGER(11) </td></tr> 
+
+        </table>
+    >]
+    misth_zpepidom -> misth_zpxrisi; 
+
+    misth_final_ypal_epidom [label=<
+        <table border="0" cellborder="1" cellspacing="0" cellpadding="4">
+            <tr><td align="left">kodfinal: BIGINT(20) NOT NULL PRIMARY</td></tr> 
+            <tr><td align="left">kodxrisi: VARCHAR(4) NOT NULL PRIMARY</td></tr> 
+            <tr><td align="left">kodepidom: VARCHAR(20) NOT NULL PRIMARY</td></tr> 
+            <tr><td align="left">kodypal: BIGINT(20) NOT NULL PRIMARY</td></tr> 
+
+            <tr><td align="left">kodfinal: BIGINT(20) NOT NULL</td></tr> 
+            <tr><td align="left">kodypal: BIGINT(20) NOT NULL</td></tr> 
+            <tr><td align="left">kodepidom: VARCHAR(20) NOT NULL</td></tr> 
+            <tr><td align="left">kodxrisi: VARCHAR(4) NOT NULL</td></tr> 
+            <tr><td align="left">poso: DOUBLE(15) </td></tr> 
+            <tr><td align="left">aa: INTEGER(11) </td></tr> 
+            <tr><td align="left">notes: VARCHAR(0) </td></tr> 
+
+        </table>
+    >]
+    misth_final_ypal_epidom -> misth_final_ypal; 
+    misth_final_ypal_epidom -> misth_zpepidom; 
+
+    misth_zpkrat [label=<
+        <table border="0" cellborder="1" cellspacing="0" cellpadding="4">
+            <tr><td align="left">kodkrat: VARCHAR(20) NOT NULL PRIMARY</td></tr> 
+            <tr><td align="left">kodxrisi: VARCHAR(4) NOT NULL PRIMARY</td></tr> 
+
+            <tr><td align="left">kodkrat: VARCHAR(20) NOT NULL</td></tr> 
+            <tr><td align="left">kodxrisi: VARCHAR(4) NOT NULL</td></tr> 
+            <tr><td align="left">desckrat: VARCHAR(50) NOT NULL</td></tr> 
+            <tr><td align="left">isforos: INTEGER(11) </td></tr> 
+            <tr><td align="left">isasf: INTEGER(11) </td></tr> 
+            <tr><td align="left">isautoforos: INTEGER(11) </td></tr> 
+
+        </table>
+    >]
+    misth_zpkrat -> misth_zpxrisi; 
+
+    misth_kratapod [label=<
+        <table border="0" cellborder="1" cellspacing="0" cellpadding="4">
+            <tr><td align="left">kodkratapod: BIGINT(20) NOT NULL PRIMARY</td></tr> 
+
+            <tr><td align="left">kodkratapod: BIGINT(20) NOT NULL</td></tr> 
+            <tr><td align="left">kodxrisi: VARCHAR(4) NOT NULL</td></tr> 
+            <tr><td align="left">desckratapod: VARCHAR(100) NOT NULL</td></tr> 
+            <tr><td align="left">apoddate: DATE(0) NOT NULL</td></tr> 
+
+        </table>
+    >]
+    misth_kratapod -> misth_zpxrisi; 
+
+    misth_final_ypal_krat [label=<
+        <table border="0" cellborder="1" cellspacing="0" cellpadding="4">
+            <tr><td align="left">kodfinal: BIGINT(20) NOT NULL PRIMARY</td></tr> 
+            <tr><td align="left">kodkrat: VARCHAR(20) NOT NULL PRIMARY</td></tr> 
+            <tr><td align="left">kodxrisi: VARCHAR(4) NOT NULL PRIMARY</td></tr> 
+            <tr><td align="left">kodypal: BIGINT(20) NOT NULL PRIMARY</td></tr> 
+
+            <tr><td align="left">kodfinal: BIGINT(20) NOT NULL</td></tr> 
+            <tr><td align="left">kodypal: BIGINT(20) NOT NULL</td></tr> 
+            <tr><td align="left">kodkrat: VARCHAR(20) NOT NULL</td></tr> 
+            <tr><td align="left">kodxrisi: VARCHAR(4) NOT NULL</td></tr> 
+            <tr><td align="left">poso: DOUBLE(15) </td></tr> 
+            <tr><td align="left">aa: INTEGER(11) </td></tr> 
+            <tr><td align="left">notes: VARCHAR(0) </td></tr> 
+            <tr><td align="left">kodkratapod: BIGINT(20) </td></tr> 
+
+        </table>
+    >]
+    misth_final_ypal_krat -> misth_final_ypal; 
+    misth_final_ypal_krat -> misth_zpkrat; 
+    misth_final_ypal_krat -> misth_kratapod; 
+
+    misth_fylo [label=<
+        <table border="0" cellborder="1" cellspacing="0" cellpadding="4">
+            <tr><td align="left">kodfylo: VARCHAR(4) NOT NULL PRIMARY</td></tr> 
+            <tr><td align="left">kodxrisi: VARCHAR(4) NOT NULL PRIMARY</td></tr> 
+
+            <tr><td align="left">kodfylo: VARCHAR(4) NOT NULL</td></tr> 
+            <tr><td align="left">kodxrisi: VARCHAR(4) NOT NULL</td></tr> 
+            <tr><td align="left">descfylo: VARCHAR(50) NOT NULL</td></tr> 
+
+        </table>
+    >]
+    misth_fylo -> misth_zpxrisi; 
+
+    misth_fylo_epidom [label=<
+        <table border="0" cellborder="1" cellspacing="0" cellpadding="4">
+            <tr><td align="left">kodfylo: VARCHAR(4) NOT NULL PRIMARY</td></tr> 
+            <tr><td align="left">kodxrisi: VARCHAR(4) NOT NULL PRIMARY</td></tr> 
+            <tr><td align="left">kodepidom: VARCHAR(20) NOT NULL PRIMARY</td></tr> 
+
+            <tr><td align="left">kodfylo: VARCHAR(4) NOT NULL</td></tr> 
+            <tr><td align="left">kodepidom: VARCHAR(20) NOT NULL</td></tr> 
+            <tr><td align="left">kodxrisi: VARCHAR(4) NOT NULL</td></tr> 
+            <tr><td align="left">expr: VARCHAR(0) </td></tr> 
+            <tr><td align="left">aa: INTEGER(11) </td></tr> 
+            <tr><td align="left">notes: VARCHAR(0) </td></tr> 
+
+        </table>
+    >]
+    misth_fylo_epidom -> misth_fylo; 
+    misth_fylo_epidom -> misth_zpepidom; 
+
+    misth_fylo_krat [label=<
+        <table border="0" cellborder="1" cellspacing="0" cellpadding="4">
+            <tr><td align="left">kodfylo: VARCHAR(4) NOT NULL PRIMARY</td></tr> 
+            <tr><td align="left">kodkrat: VARCHAR(20) NOT NULL PRIMARY</td></tr> 
+            <tr><td align="left">kodxrisi: VARCHAR(4) NOT NULL PRIMARY</td></tr> 
+
+            <tr><td align="left">kodfylo: VARCHAR(4) NOT NULL</td></tr> 
+            <tr><td align="left">kodkrat: VARCHAR(20) NOT NULL</td></tr> 
+            <tr><td align="left">kodxrisi: VARCHAR(4) NOT NULL</td></tr> 
+            <tr><td align="left">expr: VARCHAR(0) </td></tr> 
+            <tr><td align="left">aa: INTEGER(11) </td></tr> 
+            <tr><td align="left">notes: VARCHAR(0) </td></tr> 
+
+        </table>
+    >]
+    misth_fylo_krat -> misth_fylo; 
+    misth_fylo_krat -> misth_zpkrat; 
+
+    misth_fylo_ypal [label=<
+        <table border="0" cellborder="1" cellspacing="0" cellpadding="4">
+            <tr><td align="left">kodfylo: VARCHAR(4) NOT NULL PRIMARY</td></tr> 
+            <tr><td align="left">kodxrisi: VARCHAR(4) NOT NULL PRIMARY</td></tr> 
+            <tr><td align="left">kodypal: BIGINT(20) NOT NULL PRIMARY</td></tr> 
+
+            <tr><td align="left">kodfylo: VARCHAR(4) NOT NULL</td></tr> 
+            <tr><td align="left">kodypal: BIGINT(20) NOT NULL</td></tr> 
+            <tr><td align="left">kodxrisi: VARCHAR(4) NOT NULL</td></tr> 
+
+        </table>
+    >]
+    misth_fylo_ypal -> misth_fylo; 
+    misth_fylo_ypal -> misth_ypal; 
+
+    misth_report [label=<
+        <table border="0" cellborder="1" cellspacing="0" cellpadding="4">
+            <tr><td align="left">kodxrisi: VARCHAR(4) NOT NULL PRIMARY</td></tr> 
+            <tr><td align="left">kodreport: CHAR(2) NOT NULL PRIMARY</td></tr> 
+
+            <tr><td align="left">kodreport: CHAR(2) NOT NULL</td></tr> 
+            <tr><td align="left">kodxrisi: VARCHAR(4) NOT NULL</td></tr> 
+            <tr><td align="left">descreport: VARCHAR(100) NOT NULL</td></tr> 
+            <tr><td align="left">subtitle: VARCHAR(0) </td></tr> 
+            <tr><td align="left">print_margin_top: INTEGER(11) </td></tr> 
+            <tr><td align="left">print_margin_bottom: INTEGER(11) </td></tr> 
+            <tr><td align="left">print_margin_left: INTEGER(11) </td></tr> 
+            <tr><td align="left">print_margin_right: INTEGER(11) </td></tr> 
+            <tr><td align="left">print_orientation: INTEGER(11) </td></tr> 
+            <tr><td align="left">print_paper_size: INTEGER(11) </td></tr> 
+            <tr><td align="left">print_scale: INTEGER(11) </td></tr> 
+            <tr><td align="left">prn_notes1: VARCHAR(0) </td></tr> 
+            <tr><td align="left">prn_notes2: VARCHAR(0) </td></tr> 
+
+        </table>
+    >]
+    misth_report -> misth_zpxrisi; 
+
+    misth_report_cols [label=<
+        <table border="0" cellborder="1" cellspacing="0" cellpadding="4">
+            <tr><td align="left">kodcol: INTEGER(11) NOT NULL PRIMARY</td></tr> 
+            <tr><td align="left">kodxrisi: VARCHAR(4) NOT NULL PRIMARY</td></tr> 
+            <tr><td align="left">kodreport: CHAR(2) NOT NULL PRIMARY</td></tr> 
+
+            <tr><td align="left">kodcol: INTEGER(11) NOT NULL</td></tr> 
+            <tr><td align="left">kodreport: CHAR(2) NOT NULL</td></tr> 
+            <tr><td align="left">kodxrisi: VARCHAR(4) NOT NULL</td></tr> 
+            <tr><td align="left">expr: VARCHAR(0) </td></tr> 
+            <tr><td align="left">header_text: VARCHAR(50) </td></tr> 
+            <tr><td align="left">width: INTEGER(11) </td></tr> 
+            <tr><td align="left">aa: INTEGER(11) </td></tr> 
+
+        </table>
+    >]
+    misth_report_cols -> misth_report; 
+
+    misth_report_ypal [label=<
+        <table border="0" cellborder="1" cellspacing="0" cellpadding="4">
+            <tr><td align="left">kodxrisi: VARCHAR(4) NOT NULL PRIMARY</td></tr> 
+            <tr><td align="left">kodreport: CHAR(2) NOT NULL PRIMARY</td></tr> 
+            <tr><td align="left">kodypal: BIGINT(20) NOT NULL PRIMARY</td></tr> 
+
+            <tr><td align="left">kodreport: CHAR(2) NOT NULL</td></tr> 
+            <tr><td align="left">kodypal: BIGINT(20) NOT NULL</td></tr> 
+            <tr><td align="left">kodxrisi: VARCHAR(4) NOT NULL</td></tr> 
+
+        </table>
+    >]
+    misth_report_ypal -> misth_report; 
+    misth_report_ypal -> misth_ypal; 
+
+    misth_zpyvar [label=<
+        <table border="0" cellborder="1" cellspacing="0" cellpadding="4">
+            <tr><td align="left">kodyvar: VARCHAR(20) NOT NULL PRIMARY</td></tr> 
+            <tr><td align="left">kodxrisi: VARCHAR(4) NOT NULL PRIMARY</td></tr> 
+
+            <tr><td align="left">kodyvar: VARCHAR(20) NOT NULL</td></tr> 
+            <tr><td align="left">kodxrisi: VARCHAR(4) NOT NULL</td></tr> 
+            <tr><td align="left">descyvar: VARCHAR(50) NOT NULL</td></tr> 
+            <tr><td align="left">expr: VARCHAR(0) </td></tr> 
+
+        </table>
+    >]
+    misth_zpyvar -> misth_zpxrisi; 
+
+    misth_ypal_yvar [label=<
+        <table border="0" cellborder="1" cellspacing="0" cellpadding="4">
+            <tr><td align="left">kodyvar: VARCHAR(20) NOT NULL PRIMARY</td></tr> 
+            <tr><td align="left">kodxrisi: VARCHAR(4) NOT NULL PRIMARY</td></tr> 
+            <tr><td align="left">kodypal: BIGINT(20) NOT NULL PRIMARY</td></tr> 
+
+            <tr><td align="left">kodypal: BIGINT(20) NOT NULL</td></tr> 
+            <tr><td align="left">kodyvar: VARCHAR(20) NOT NULL</td></tr> 
+            <tr><td align="left">kodxrisi: VARCHAR(4) NOT NULL</td></tr> 
+            <tr><td align="left">expr: VARCHAR(0) </td></tr> 
+            <tr><td align="left">aa: INTEGER(11) </td></tr> 
+
+        </table>
+    >]
+    misth_ypal_yvar -> misth_ypal; 
+    misth_ypal_yvar -> misth_zpyvar; 
+
+    misth_zpstath [label=<
+        <table border="0" cellborder="1" cellspacing="0" cellpadding="4">
+            <tr><td align="left">kodxrisi: VARCHAR(4) NOT NULL PRIMARY</td></tr> 
+            <tr><td align="left">kodstath: VARCHAR(20) NOT NULL PRIMARY</td></tr> 
+
+            <tr><td align="left">kodstath: VARCHAR(20) NOT NULL</td></tr> 
+            <tr><td align="left">kodxrisi: VARCHAR(4) NOT NULL</td></tr> 
+            <tr><td align="left">descstath: VARCHAR(50) NOT NULL</td></tr> 
+            <tr><td align="left">poso: DOUBLE(15) </td></tr> 
+
+        </table>
+    >]
+    misth_zpstath -> misth_zpxrisi; 
+
+    misth_zptitlos [label=<
+        <table border="0" cellborder="1" cellspacing="0" cellpadding="4">
+            <tr><td align="left">kodxrisi: VARCHAR(4) NOT NULL PRIMARY</td></tr> 
+            <tr><td align="left">kodtitlos: CHAR(2) NOT NULL PRIMARY</td></tr> 
+
+            <tr><td align="left">kodtitlos: CHAR(2) NOT NULL</td></tr> 
+            <tr><td align="left">kodxrisi: VARCHAR(4) NOT NULL</td></tr> 
+            <tr><td align="left">desctitlos: VARCHAR(10) NOT NULL</td></tr> 
+
+        </table>
+    >]
+    misth_zptitlos -> misth_zpxrisi; 
+
+}
