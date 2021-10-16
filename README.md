@@ -9,7 +9,7 @@ All instructions should be run in a terminal
 ```gradle spotlessApply build```
 
 ### Optional integration test
-```gradle IntegrationTest
+```gradle IntegrationTest```
 
 ### Run the application
 cd ui
