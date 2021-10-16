@@ -6,7 +6,10 @@ All instructions should be run in a terminal
 ```git clone https://github.com/gmai2006/powerbuildertest.git```
 
 ### Run the gradle build to download all dependencies and setup your eclipse .classpath
-```gradle copyReact -x test build```
+```gradle spotlessApply build```
+
+### Optional integration test
+```gradle IntegrationTest
 
 #### Run the application
 cd ui
