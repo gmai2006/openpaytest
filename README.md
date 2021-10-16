@@ -1,4 +1,4 @@
-# Auto-generated JEE application
+# Auto-generated OpenPay application from openpay db schema
 ## Instruction
 All instructions should be run in a terminal
 
@@ -9,11 +9,11 @@ All instructions should be run in a terminal
 ```gradle copyReact -x test build```
 
 #### Run the application
+cd ui
+npm install
+npm start
 
 
-##Troubleshoot
-- React proxy server is set to http://localhost:8080/
-- React homepage in the package.json is set to powerbuildertest
 
   
 
