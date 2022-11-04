@@ -3,7 +3,7 @@
 All instructions should be run in a terminal
 
 ### Clone the project
-```git clone https://github.com/gmai2006/powerbuildertest.git```
+```git clone https://github.com/gmai2006/openpaytest.git```
 
 ### Run the gradle build to download all dependencies and setup your eclipse .classpath
 ```gradle spotlessApply build```
