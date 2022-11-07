@@ -25,7 +25,7 @@ import javax.persistence.Basic;
 @Entity
 @Table(name = "afxkeygen")
 public class Afxkeygen implements Serializable {
-  private static final long serialVersionUID = 163436646512034499L;
+  private static final long serialVersionUID = 166786182206490526L;
 
   /** Description: tblname. */
   @javax.validation.constraints.NotNull

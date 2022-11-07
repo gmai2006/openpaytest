@@ -27,7 +27,7 @@ import javax.persistence.Basic;
 @IdClass(MisthFyloKratId.class)
 @Table(name = "misth_fylo_krat")
 public class MisthFyloKrat implements Serializable {
-  private static final long serialVersionUID = 163436646554538008L;
+  private static final long serialVersionUID = 166786182236466941L;
 
   /** Description: kodfylo. */
   @javax.validation.constraints.NotNull

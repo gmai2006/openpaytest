@@ -27,7 +27,7 @@ import javax.persistence.Basic;
 @IdClass(MisthFinalYpalId.class)
 @Table(name = "misth_final_ypal")
 public class MisthFinalYpal implements Serializable {
-  private static final long serialVersionUID = 163436646541370547L;
+  private static final long serialVersionUID = 166786182225283142L;
 
   /** Description: kodfinal. */
   @javax.validation.constraints.NotNull

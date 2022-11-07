@@ -20,7 +20,7 @@ paths:
     put:
       tags:
       - "Afxfilter"
-      operationId: "fcb6b200-e801-4d2b-9218-9d335cb48a27"
+      operationId: "0db11ddd-36c9-4b06-b398-130d29788f29"
       parameters:
       - name: "Afxfilter"
         in: "path"
@@ -41,8 +41,8 @@ paths:
                 test1:
                   value:
                     descfilter: "Lorem ipsum dolor si0"
-                    tablename: "Nanine"
-                    kodfilter: "1207838344"
+                    tablename: "Elinore"
+                    kodfilter: "1260040072"
         default:
           description: "error payload"
           content:
@@ -52,7 +52,7 @@ paths:
     post:
       tags:
       - "Afxfilter"
-      operationId: "0187d6f8-9f0f-47f4-a515-89c794adeda9"
+      operationId: "4954c83e-f5f5-4fd1-bc63-44d051f6ab6e"
       parameters:
       - name: "Afxfilter"
         in: "path"
@@ -73,8 +73,8 @@ paths:
                 test1:
                   value:
                     descfilter: "Lorem ipsum dolor si0"
-                    tablename: "Nanine"
-                    kodfilter: "1207838344"
+                    tablename: "Elinore"
+                    kodfilter: "1260040072"
         default:
           description: "error payload"
           content:
@@ -85,7 +85,7 @@ paths:
     put:
       tags:
       - "Afxfilterd"
-      operationId: "eea6981b-0f0f-49d5-8c82-e09aa743915a"
+      operationId: "53ed463f-afbb-4c2c-941d-fa55e7eb2971"
       parameters:
       - name: "Afxfilterd"
         in: "path"
@@ -106,8 +106,8 @@ paths:
                 test1:
                   value:
                     descfilter: "Lorem ipsum dolor si0"
-                    tablename: "Nanine"
-                    kodfilter: "1207838344"
+                    tablename: "Elinore"
+                    kodfilter: "1260040072"
         default:
           description: "error payload"
           content:
@@ -117,7 +117,7 @@ paths:
     post:
       tags:
       - "Afxfilterd"
-      operationId: "8db83aea-efbb-4495-89e8-58fabeccbd86"
+      operationId: "cdac3036-599c-483a-8d70-99775c71ded5"
       parameters:
       - name: "Afxfilterd"
         in: "path"
@@ -138,8 +138,8 @@ paths:
                 test1:
                   value:
                     descfilter: "Lorem ipsum dolor si0"
-                    tablename: "Nanine"
-                    kodfilter: "1207838344"
+                    tablename: "Elinore"
+                    kodfilter: "1260040072"
         default:
           description: "error payload"
           content:
@@ -150,7 +150,7 @@ paths:
     put:
       tags:
       - "Afxinfo"
-      operationId: "62469c11-b095-46f5-a0a0-5d116a8b976c"
+      operationId: "f398dca0-e01c-4a8d-a47c-181f54129ad3"
       parameters:
       - name: "Afxinfo"
         in: "path"
@@ -171,8 +171,8 @@ paths:
                 test1:
                   value:
                     descfilter: "Lorem ipsum dolor si0"
-                    tablename: "Nanine"
-                    kodfilter: "1207838344"
+                    tablename: "Elinore"
+                    kodfilter: "1260040072"
         default:
           description: "error payload"
           content:
@@ -182,7 +182,7 @@ paths:
     post:
       tags:
       - "Afxinfo"
-      operationId: "dee12235-6936-4c96-8aa4-94454fd42c9c"
+      operationId: "5075ddc8-b719-4a53-a14f-a35046cf014d"
       parameters:
       - name: "Afxinfo"
         in: "path"
@@ -203,8 +203,8 @@ paths:
                 test1:
                   value:
                     descfilter: "Lorem ipsum dolor si0"
-                    tablename: "Nanine"
-                    kodfilter: "1207838344"
+                    tablename: "Elinore"
+                    kodfilter: "1260040072"
         default:
           description: "error payload"
           content:
@@ -215,7 +215,7 @@ paths:
     put:
       tags:
       - "Afxkeygen"
-      operationId: "b8e4d998-f4d4-4842-b3da-468642288858"
+      operationId: "b9013233-2977-465f-83fe-97dfdb3d0548"
       parameters:
       - name: "Afxkeygen"
         in: "path"
@@ -236,8 +236,8 @@ paths:
                 test1:
                   value:
                     descfilter: "Lorem ipsum dolor si0"
-                    tablename: "Nanine"
-                    kodfilter: "1207838344"
+                    tablename: "Elinore"
+                    kodfilter: "1260040072"
         default:
           description: "error payload"
           content:
@@ -247,7 +247,7 @@ paths:
     post:
       tags:
       - "Afxkeygen"
-      operationId: "170a42f9-1b39-40a7-8074-78506723b86d"
+      operationId: "a00f73ef-1168-4471-a8ac-c18eadee81c8"
       parameters:
       - name: "Afxkeygen"
         in: "path"
@@ -268,8 +268,8 @@ paths:
                 test1:
                   value:
                     descfilter: "Lorem ipsum dolor si0"
-                    tablename: "Nanine"
-                    kodfilter: "1207838344"
+                    tablename: "Elinore"
+                    kodfilter: "1260040072"
         default:
           description: "error payload"
           content:
@@ -280,7 +280,7 @@ paths:
     put:
       tags:
       - "Afxoperators"
-      operationId: "f87e9f0b-112d-4e59-9353-76b02ebac093"
+      operationId: "6025b366-e4c9-43d9-91f3-7023f3a9c65b"
       parameters:
       - name: "Afxoperators"
         in: "path"
@@ -301,8 +301,8 @@ paths:
                 test1:
                   value:
                     descfilter: "Lorem ipsum dolor si0"
-                    tablename: "Nanine"
-                    kodfilter: "1207838344"
+                    tablename: "Elinore"
+                    kodfilter: "1260040072"
         default:
           description: "error payload"
           content:
@@ -312,7 +312,7 @@ paths:
     post:
       tags:
       - "Afxoperators"
-      operationId: "e20db140-00bc-4d8c-bbd4-602d64d18eff"
+      operationId: "25d6e716-9530-4286-a72a-baecb829f368"
       parameters:
       - name: "Afxoperators"
         in: "path"
@@ -333,8 +333,8 @@ paths:
                 test1:
                   value:
                     descfilter: "Lorem ipsum dolor si0"
-                    tablename: "Nanine"
-                    kodfilter: "1207838344"
+                    tablename: "Elinore"
+                    kodfilter: "1260040072"
         default:
           description: "error payload"
           content:
@@ -345,7 +345,7 @@ paths:
     put:
       tags:
       - "Afxptoseis"
-      operationId: "1a7de811-b589-44eb-ab58-7e3f4fbc6db1"
+      operationId: "91757aa0-1e9e-4db3-b871-7ef2424810c5"
       parameters:
       - name: "Afxptoseis"
         in: "path"
@@ -366,8 +366,8 @@ paths:
                 test1:
                   value:
                     descfilter: "Lorem ipsum dolor si0"
-                    tablename: "Nanine"
-                    kodfilter: "1207838344"
+                    tablename: "Elinore"
+                    kodfilter: "1260040072"
         default:
           description: "error payload"
           content:
@@ -377,7 +377,7 @@ paths:
     post:
       tags:
       - "Afxptoseis"
-      operationId: "ceadc9f7-41f0-4267-9fa4-ae7c7151debb"
+      operationId: "6ff52b77-6105-4745-a780-779a7f989fa6"
       parameters:
       - name: "Afxptoseis"
         in: "path"
@@ -398,8 +398,8 @@ paths:
                 test1:
                   value:
                     descfilter: "Lorem ipsum dolor si0"
-                    tablename: "Nanine"
-                    kodfilter: "1207838344"
+                    tablename: "Elinore"
+                    kodfilter: "1260040072"
         default:
           description: "error payload"
           content:
@@ -410,7 +410,7 @@ paths:
     put:
       tags:
       - "Afxtable"
-      operationId: "7d99e16b-ad7d-4614-8402-736954afde51"
+      operationId: "141db730-90df-4605-9abb-8ffa9609bee6"
       parameters:
       - name: "Afxtable"
         in: "path"
@@ -431,8 +431,8 @@ paths:
                 test1:
                   value:
                     descfilter: "Lorem ipsum dolor si0"
-                    tablename: "Nanine"
-                    kodfilter: "1207838344"
+                    tablename: "Elinore"
+                    kodfilter: "1260040072"
         default:
           description: "error payload"
           content:
@@ -442,7 +442,7 @@ paths:
     post:
       tags:
       - "Afxtable"
-      operationId: "16538e2c-00ae-462a-b3b6-594df213c6b1"
+      operationId: "2b50281e-1c60-4c92-bf4c-e9139b2df62e"
       parameters:
       - name: "Afxtable"
         in: "path"
@@ -463,8 +463,8 @@ paths:
                 test1:
                   value:
                     descfilter: "Lorem ipsum dolor si0"
-                    tablename: "Nanine"
-                    kodfilter: "1207838344"
+                    tablename: "Elinore"
+                    kodfilter: "1260040072"
         default:
           description: "error payload"
           content:
@@ -475,7 +475,7 @@ paths:
     put:
       tags:
       - "Afxtablefields"
-      operationId: "d3bea384-1d78-4a39-90a2-45655154e388"
+      operationId: "d5198898-3625-4646-9606-229f5993829f"
       parameters:
       - name: "Afxtablefields"
         in: "path"
@@ -496,8 +496,8 @@ paths:
                 test1:
                   value:
                     descfilter: "Lorem ipsum dolor si0"
-                    tablename: "Nanine"
-                    kodfilter: "1207838344"
+                    tablename: "Elinore"
+                    kodfilter: "1260040072"
         default:
           description: "error payload"
           content:
@@ -507,7 +507,7 @@ paths:
     post:
       tags:
       - "Afxtablefields"
-      operationId: "fc612d00-3c9e-4f2a-a477-8bbb11b145f7"
+      operationId: "8a7edca2-3c19-4830-9219-7c5d9039d2ca"
       parameters:
       - name: "Afxtablefields"
         in: "path"
@@ -528,8 +528,8 @@ paths:
                 test1:
                   value:
                     descfilter: "Lorem ipsum dolor si0"
-                    tablename: "Nanine"
-                    kodfilter: "1207838344"
+                    tablename: "Elinore"
+                    kodfilter: "1260040072"
         default:
           description: "error payload"
           content:
@@ -540,7 +540,7 @@ paths:
     put:
       tags:
       - "Afxtranslate"
-      operationId: "c619ffb7-b5a1-405e-a15b-54ecda09f144"
+      operationId: "c7437aee-870d-442d-9035-876313684a81"
       parameters:
       - name: "Afxtranslate"
         in: "path"
@@ -561,8 +561,8 @@ paths:
                 test1:
                   value:
                     descfilter: "Lorem ipsum dolor si0"
-                    tablename: "Nanine"
-                    kodfilter: "1207838344"
+                    tablename: "Elinore"
+                    kodfilter: "1260040072"
         default:
           description: "error payload"
           content:
@@ -572,7 +572,7 @@ paths:
     post:
       tags:
       - "Afxtranslate"
-      operationId: "0dded23d-abfe-4811-ab86-e540dd9fad2b"
+      operationId: "de971486-d2e1-4fd1-8342-bd966eb868e2"
       parameters:
       - name: "Afxtranslate"
         in: "path"
@@ -593,8 +593,8 @@ paths:
                 test1:
                   value:
                     descfilter: "Lorem ipsum dolor si0"
-                    tablename: "Nanine"
-                    kodfilter: "1207838344"
+                    tablename: "Elinore"
+                    kodfilter: "1260040072"
         default:
           description: "error payload"
           content:
@@ -605,7 +605,7 @@ paths:
     put:
       tags:
       - "MisthZpxrisi"
-      operationId: "9cf57503-7a05-4bcb-9b84-48467d68c9f7"
+      operationId: "00f665cb-ad4c-4080-87b1-1806b1b60077"
       parameters:
       - name: "MisthZpxrisi"
         in: "path"
@@ -626,8 +626,8 @@ paths:
                 test1:
                   value:
                     descfilter: "Lorem ipsum dolor si0"
-                    tablename: "Nanine"
-                    kodfilter: "1207838344"
+                    tablename: "Elinore"
+                    kodfilter: "1260040072"
         default:
           description: "error payload"
           content:
@@ -637,7 +637,7 @@ paths:
     post:
       tags:
       - "MisthZpxrisi"
-      operationId: "2342fbdb-066c-461f-9c4d-f619c53c25d4"
+      operationId: "5dec80c1-ef9b-47b8-921f-8040d72417cf"
       parameters:
       - name: "MisthZpxrisi"
         in: "path"
@@ -658,8 +658,8 @@ paths:
                 test1:
                   value:
                     descfilter: "Lorem ipsum dolor si0"
-                    tablename: "Nanine"
-                    kodfilter: "1207838344"
+                    tablename: "Elinore"
+                    kodfilter: "1260040072"
         default:
           description: "error payload"
           content:
@@ -670,7 +670,7 @@ paths:
     put:
       tags:
       - "MisthZpperiod"
-      operationId: "a601ffa0-5616-4b78-b65d-72432dd86bbc"
+      operationId: "73215b35-cc00-4dd0-880c-28a03cd24331"
       parameters:
       - name: "MisthZpperiod"
         in: "path"
@@ -691,8 +691,8 @@ paths:
                 test1:
                   value:
                     descfilter: "Lorem ipsum dolor si0"
-                    tablename: "Nanine"
-                    kodfilter: "1207838344"
+                    tablename: "Elinore"
+                    kodfilter: "1260040072"
         default:
           description: "error payload"
           content:
@@ -702,7 +702,7 @@ paths:
     post:
       tags:
       - "MisthZpperiod"
-      operationId: "f0df992d-6662-4f3c-892e-c790a1fc49b5"
+      operationId: "881ebe12-6e96-449c-9a42-08d076f08c30"
       parameters:
       - name: "MisthZpperiod"
         in: "path"
@@ -723,8 +723,8 @@ paths:
                 test1:
                   value:
                     descfilter: "Lorem ipsum dolor si0"
-                    tablename: "Nanine"
-                    kodfilter: "1207838344"
+                    tablename: "Elinore"
+                    kodfilter: "1260040072"
         default:
           description: "error payload"
           content:
@@ -735,7 +735,7 @@ paths:
     put:
       tags:
       - "MisthZpkat"
-      operationId: "fbe2f552-408c-4420-968a-ef9927dd88da"
+      operationId: "3bd9fdcf-f861-4dc2-bdfd-7530f033c158"
       parameters:
       - name: "MisthZpkat"
         in: "path"
@@ -756,8 +756,8 @@ paths:
                 test1:
                   value:
                     descfilter: "Lorem ipsum dolor si0"
-                    tablename: "Nanine"
-                    kodfilter: "1207838344"
+                    tablename: "Elinore"
+                    kodfilter: "1260040072"
         default:
           description: "error payload"
           content:
@@ -767,7 +767,7 @@ paths:
     post:
       tags:
       - "MisthZpkat"
-      operationId: "dc8c86e3-815b-41a4-aa82-c9736eacc8e3"
+      operationId: "00431cdb-1bc6-4db5-9a2a-69254315f90d"
       parameters:
       - name: "MisthZpkat"
         in: "path"
@@ -788,8 +788,8 @@ paths:
                 test1:
                   value:
                     descfilter: "Lorem ipsum dolor si0"
-                    tablename: "Nanine"
-                    kodfilter: "1207838344"
+                    tablename: "Elinore"
+                    kodfilter: "1260040072"
         default:
           description: "error payload"
           content:
@@ -800,7 +800,7 @@ paths:
     put:
       tags:
       - "MisthFinal"
-      operationId: "5f513c9e-7479-4638-b19d-8210674fa891"
+      operationId: "7fb7a04b-b582-4ba0-9148-667bdaded988"
       parameters:
       - name: "MisthFinal"
         in: "path"
@@ -821,8 +821,8 @@ paths:
                 test1:
                   value:
                     descfilter: "Lorem ipsum dolor si0"
-                    tablename: "Nanine"
-                    kodfilter: "1207838344"
+                    tablename: "Elinore"
+                    kodfilter: "1260040072"
         default:
           description: "error payload"
           content:
@@ -832,7 +832,7 @@ paths:
     post:
       tags:
       - "MisthFinal"
-      operationId: "de484b4f-f624-460e-ac23-2e6164f16ac7"
+      operationId: "b690de6a-029d-45e8-967c-4bd82f933416"
       parameters:
       - name: "MisthFinal"
         in: "path"
@@ -853,8 +853,8 @@ paths:
                 test1:
                   value:
                     descfilter: "Lorem ipsum dolor si0"
-                    tablename: "Nanine"
-                    kodfilter: "1207838344"
+                    tablename: "Elinore"
+                    kodfilter: "1260040072"
         default:
           description: "error payload"
           content:
@@ -865,7 +865,7 @@ paths:
     put:
       tags:
       - "MisthZptmima"
-      operationId: "64d6dee5-e352-437e-8d61-62ecfe2e41e7"
+      operationId: "6842d086-7fe9-4d94-bc6d-b522f8637fe2"
       parameters:
       - name: "MisthZptmima"
         in: "path"
@@ -886,8 +886,8 @@ paths:
                 test1:
                   value:
                     descfilter: "Lorem ipsum dolor si0"
-                    tablename: "Nanine"
-                    kodfilter: "1207838344"
+                    tablename: "Elinore"
+                    kodfilter: "1260040072"
         default:
           description: "error payload"
           content:
@@ -897,7 +897,7 @@ paths:
     post:
       tags:
       - "MisthZptmima"
-      operationId: "cd5e2f54-7170-4bd2-8371-340cf33484a6"
+      operationId: "d004b1a8-5220-4ede-a2fe-5b1eb83b5658"
       parameters:
       - name: "MisthZptmima"
         in: "path"
@@ -918,8 +918,8 @@ paths:
                 test1:
                   value:
                     descfilter: "Lorem ipsum dolor si0"
-                    tablename: "Nanine"
-                    kodfilter: "1207838344"
+                    tablename: "Elinore"
+                    kodfilter: "1260040072"
         default:
           description: "error payload"
           content:
@@ -930,7 +930,7 @@ paths:
     put:
       tags:
       - "MisthZpidikot"
-      operationId: "ee5df4bb-b97d-41d4-8636-4de206929816"
+      operationId: "e179066d-1e8a-4f1a-a806-eb4c0937bdf3"
       parameters:
       - name: "MisthZpidikot"
         in: "path"
@@ -951,8 +951,8 @@ paths:
                 test1:
                   value:
                     descfilter: "Lorem ipsum dolor si0"
-                    tablename: "Nanine"
-                    kodfilter: "1207838344"
+                    tablename: "Elinore"
+                    kodfilter: "1260040072"
         default:
           description: "error payload"
           content:
@@ -962,7 +962,7 @@ paths:
     post:
       tags:
       - "MisthZpidikot"
-      operationId: "80a88f36-6f39-4c8b-86ed-a596a534adf5"
+      operationId: "87e7aa40-818d-411b-91d9-359a255db729"
       parameters:
       - name: "MisthZpidikot"
         in: "path"
@@ -983,8 +983,8 @@ paths:
                 test1:
                   value:
                     descfilter: "Lorem ipsum dolor si0"
-                    tablename: "Nanine"
-                    kodfilter: "1207838344"
+                    tablename: "Elinore"
+                    kodfilter: "1260040072"
         default:
           description: "error payload"
           content:
@@ -995,7 +995,7 @@ paths:
     put:
       tags:
       - "MisthZpthesi"
-      operationId: "997da47f-46b0-4ce7-88f0-2b8714edcc14"
+      operationId: "2648184a-721a-472f-bfba-4f6392ae1478"
       parameters:
       - name: "MisthZpthesi"
         in: "path"
@@ -1016,8 +1016,8 @@ paths:
                 test1:
                   value:
                     descfilter: "Lorem ipsum dolor si0"
-                    tablename: "Nanine"
-                    kodfilter: "1207838344"
+                    tablename: "Elinore"
+                    kodfilter: "1260040072"
         default:
           description: "error payload"
           content:
@@ -1027,7 +1027,7 @@ paths:
     post:
       tags:
       - "MisthZpthesi"
-      operationId: "635b66a2-1138-4557-a514-c6b388f07adc"
+      operationId: "7f53bb25-cdf5-4de1-a10a-19b571fb28f6"
       parameters:
       - name: "MisthZpthesi"
         in: "path"
@@ -1048,8 +1048,8 @@ paths:
                 test1:
                   value:
                     descfilter: "Lorem ipsum dolor si0"
-                    tablename: "Nanine"
-                    kodfilter: "1207838344"
+                    tablename: "Elinore"
+                    kodfilter: "1260040072"
         default:
           description: "error payload"
           content:
@@ -1060,7 +1060,7 @@ paths:
     put:
       tags:
       - "MisthZptamio"
-      operationId: "ddb2a3c8-64a9-4459-9f67-705b6a12d1ed"
+      operationId: "4a88b660-c583-42e4-a5cd-bbe45b6759b2"
       parameters:
       - name: "MisthZptamio"
         in: "path"
@@ -1081,8 +1081,8 @@ paths:
                 test1:
                   value:
                     descfilter: "Lorem ipsum dolor si0"
-                    tablename: "Nanine"
-                    kodfilter: "1207838344"
+                    tablename: "Elinore"
+                    kodfilter: "1260040072"
         default:
           description: "error payload"
           content:
@@ -1092,7 +1092,7 @@ paths:
     post:
       tags:
       - "MisthZptamio"
-      operationId: "868dd640-a54b-4c8f-a202-9d540199cc81"
+      operationId: "9a4e6ab0-3b0b-435a-9487-ab3429850df2"
       parameters:
       - name: "MisthZptamio"
         in: "path"
@@ -1113,8 +1113,8 @@ paths:
                 test1:
                   value:
                     descfilter: "Lorem ipsum dolor si0"
-                    tablename: "Nanine"
-                    kodfilter: "1207838344"
+                    tablename: "Elinore"
+                    kodfilter: "1260040072"
         default:
           description: "error payload"
           content:
@@ -1125,7 +1125,7 @@ paths:
     put:
       tags:
       - "MisthZpoikog"
-      operationId: "ea57f038-eca9-42ad-8967-dfe48e091a51"
+      operationId: "fed7e1b3-5fb4-43b2-bb51-1c6e83b686e9"
       parameters:
       - name: "MisthZpoikog"
         in: "path"
@@ -1146,8 +1146,8 @@ paths:
                 test1:
                   value:
                     descfilter: "Lorem ipsum dolor si0"
-                    tablename: "Nanine"
-                    kodfilter: "1207838344"
+                    tablename: "Elinore"
+                    kodfilter: "1260040072"
         default:
           description: "error payload"
           content:
@@ -1157,7 +1157,7 @@ paths:
     post:
       tags:
       - "MisthZpoikog"
-      operationId: "f232e111-13f0-43f9-8a97-b8dd5f0e985b"
+      operationId: "4f3f7b12-bd1c-436b-a96d-c32f22ba7741"
       parameters:
       - name: "MisthZpoikog"
         in: "path"
@@ -1178,8 +1178,8 @@ paths:
                 test1:
                   value:
                     descfilter: "Lorem ipsum dolor si0"
-                    tablename: "Nanine"
-                    kodfilter: "1207838344"
+                    tablename: "Elinore"
+                    kodfilter: "1260040072"
         default:
           description: "error payload"
           content:
@@ -1190,7 +1190,7 @@ paths:
     put:
       tags:
       - "MisthYpal"
-      operationId: "d5d0740a-6796-4cf7-b7c1-68b1be2901c6"
+      operationId: "ba220296-c6f3-4945-beac-9fc1acec594a"
       parameters:
       - name: "MisthYpal"
         in: "path"
@@ -1211,8 +1211,8 @@ paths:
                 test1:
                   value:
                     descfilter: "Lorem ipsum dolor si0"
-                    tablename: "Nanine"
-                    kodfilter: "1207838344"
+                    tablename: "Elinore"
+                    kodfilter: "1260040072"
         default:
           description: "error payload"
           content:
@@ -1222,7 +1222,7 @@ paths:
     post:
       tags:
       - "MisthYpal"
-      operationId: "2f9bb971-d1f3-4536-863b-272c5322cdac"
+      operationId: "c442c65e-52b1-48b1-9b2a-448236d61cd1"
       parameters:
       - name: "MisthYpal"
         in: "path"
@@ -1243,8 +1243,8 @@ paths:
                 test1:
                   value:
                     descfilter: "Lorem ipsum dolor si0"
-                    tablename: "Nanine"
-                    kodfilter: "1207838344"
+                    tablename: "Elinore"
+                    kodfilter: "1260040072"
         default:
           description: "error payload"
           content:
@@ -1255,7 +1255,7 @@ paths:
     put:
       tags:
       - "MisthFinalYpal"
-      operationId: "1ab567a7-00a8-4431-b7a7-5a92a33918f5"
+      operationId: "ace3670c-2afd-4f9a-9a96-0580de30a032"
       parameters:
       - name: "MisthFinalYpal"
         in: "path"
@@ -1276,8 +1276,8 @@ paths:
                 test1:
                   value:
                     descfilter: "Lorem ipsum dolor si0"
-                    tablename: "Nanine"
-                    kodfilter: "1207838344"
+                    tablename: "Elinore"
+                    kodfilter: "1260040072"
         default:
           description: "error payload"
           content:
@@ -1287,7 +1287,7 @@ paths:
     post:
       tags:
       - "MisthFinalYpal"
-      operationId: "9e5424fe-a677-4a58-a015-9c57ca92e1c3"
+      operationId: "21c905d7-7b3e-4a09-966d-a4ac7437bf1b"
       parameters:
       - name: "MisthFinalYpal"
         in: "path"
@@ -1308,8 +1308,8 @@ paths:
                 test1:
                   value:
                     descfilter: "Lorem ipsum dolor si0"
-                    tablename: "Nanine"
-                    kodfilter: "1207838344"
+                    tablename: "Elinore"
+                    kodfilter: "1260040072"
         default:
           description: "error payload"
           content:
@@ -1320,7 +1320,7 @@ paths:
     put:
       tags:
       - "MisthZpepidom"
-      operationId: "a7c7ce33-27b0-4255-adce-63ce08458364"
+      operationId: "e5054d2f-8b02-457a-a313-13e2e09af5f0"
       parameters:
       - name: "MisthZpepidom"
         in: "path"
@@ -1341,8 +1341,8 @@ paths:
                 test1:
                   value:
                     descfilter: "Lorem ipsum dolor si0"
-                    tablename: "Nanine"
-                    kodfilter: "1207838344"
+                    tablename: "Elinore"
+                    kodfilter: "1260040072"
         default:
           description: "error payload"
           content:
@@ -1352,7 +1352,7 @@ paths:
     post:
       tags:
       - "MisthZpepidom"
-      operationId: "229bf1aa-c65b-40be-a114-498c0331b8c3"
+      operationId: "97d684f5-49ed-4640-8698-fffdd0626e44"
       parameters:
       - name: "MisthZpepidom"
         in: "path"
@@ -1373,8 +1373,8 @@ paths:
                 test1:
                   value:
                     descfilter: "Lorem ipsum dolor si0"
-                    tablename: "Nanine"
-                    kodfilter: "1207838344"
+                    tablename: "Elinore"
+                    kodfilter: "1260040072"
         default:
           description: "error payload"
           content:
@@ -1385,7 +1385,7 @@ paths:
     put:
       tags:
       - "MisthFinalYpalEpidom"
-      operationId: "89dd8a04-600b-450f-9ebd-766359af0130"
+      operationId: "ea7c3055-b118-48b9-b272-4f18122f9d48"
       parameters:
       - name: "MisthFinalYpalEpidom"
         in: "path"
@@ -1406,8 +1406,8 @@ paths:
                 test1:
                   value:
                     descfilter: "Lorem ipsum dolor si0"
-                    tablename: "Nanine"
-                    kodfilter: "1207838344"
+                    tablename: "Elinore"
+                    kodfilter: "1260040072"
         default:
           description: "error payload"
           content:
@@ -1417,7 +1417,7 @@ paths:
     post:
       tags:
       - "MisthFinalYpalEpidom"
-      operationId: "bccf5c1e-8550-4d2a-a8bb-db279a8b94ba"
+      operationId: "6f6d45c6-b120-4810-b3c5-bc42c356f752"
       parameters:
       - name: "MisthFinalYpalEpidom"
         in: "path"
@@ -1438,8 +1438,8 @@ paths:
                 test1:
                   value:
                     descfilter: "Lorem ipsum dolor si0"
-                    tablename: "Nanine"
-                    kodfilter: "1207838344"
+                    tablename: "Elinore"
+                    kodfilter: "1260040072"
         default:
           description: "error payload"
           content:
@@ -1450,7 +1450,7 @@ paths:
     put:
       tags:
       - "MisthZpkrat"
-      operationId: "4982d65c-41b2-4134-b2a9-11925ee9def0"
+      operationId: "3d710a69-a2f4-463f-8503-2e406ef24848"
       parameters:
       - name: "MisthZpkrat"
         in: "path"
@@ -1471,8 +1471,8 @@ paths:
                 test1:
                   value:
                     descfilter: "Lorem ipsum dolor si0"
-                    tablename: "Nanine"
-                    kodfilter: "1207838344"
+                    tablename: "Elinore"
+                    kodfilter: "1260040072"
         default:
           description: "error payload"
           content:
@@ -1482,7 +1482,7 @@ paths:
     post:
       tags:
       - "MisthZpkrat"
-      operationId: "3874e846-74b9-4f83-9e18-afdd8800469c"
+      operationId: "72d9b583-d752-4747-b5fc-f46fdfb14d74"
       parameters:
       - name: "MisthZpkrat"
         in: "path"
@@ -1503,8 +1503,8 @@ paths:
                 test1:
                   value:
                     descfilter: "Lorem ipsum dolor si0"
-                    tablename: "Nanine"
-                    kodfilter: "1207838344"
+                    tablename: "Elinore"
+                    kodfilter: "1260040072"
         default:
           description: "error payload"
           content:
@@ -1515,7 +1515,7 @@ paths:
     put:
       tags:
       - "MisthKratapod"
-      operationId: "2ed79654-8372-43b1-b03b-623e81d6b7e8"
+      operationId: "e796fbe8-07e5-426c-ba2c-a2a69a06deee"
       parameters:
       - name: "MisthKratapod"
         in: "path"
@@ -1536,8 +1536,8 @@ paths:
                 test1:
                   value:
                     descfilter: "Lorem ipsum dolor si0"
-                    tablename: "Nanine"
-                    kodfilter: "1207838344"
+                    tablename: "Elinore"
+                    kodfilter: "1260040072"
         default:
           description: "error payload"
           content:
@@ -1547,7 +1547,7 @@ paths:
     post:
       tags:
       - "MisthKratapod"
-      operationId: "4627358c-edd2-49ed-bf4e-3ef436aefbed"
+      operationId: "63c7f5f5-9186-464b-9e27-f7276d24f28b"
       parameters:
       - name: "MisthKratapod"
         in: "path"
@@ -1568,8 +1568,8 @@ paths:
                 test1:
                   value:
                     descfilter: "Lorem ipsum dolor si0"
-                    tablename: "Nanine"
-                    kodfilter: "1207838344"
+                    tablename: "Elinore"
+                    kodfilter: "1260040072"
         default:
           description: "error payload"
           content:
@@ -1580,7 +1580,7 @@ paths:
     put:
       tags:
       - "MisthFinalYpalKrat"
-      operationId: "8bb534e6-301d-4b2c-82f7-7313de1ee6c0"
+      operationId: "732cf0aa-80ee-442a-9d9d-42f5e7b3608c"
       parameters:
       - name: "MisthFinalYpalKrat"
         in: "path"
@@ -1601,8 +1601,8 @@ paths:
                 test1:
                   value:
                     descfilter: "Lorem ipsum dolor si0"
-                    tablename: "Nanine"
-                    kodfilter: "1207838344"
+                    tablename: "Elinore"
+                    kodfilter: "1260040072"
         default:
           description: "error payload"
           content:
@@ -1612,7 +1612,7 @@ paths:
     post:
       tags:
       - "MisthFinalYpalKrat"
-      operationId: "5708bff7-84e7-4aed-9107-04d908753e52"
+      operationId: "e11509fe-b248-42c5-b6f5-e61b471f5882"
       parameters:
       - name: "MisthFinalYpalKrat"
         in: "path"
@@ -1633,8 +1633,8 @@ paths:
                 test1:
                   value:
                     descfilter: "Lorem ipsum dolor si0"
-                    tablename: "Nanine"
-                    kodfilter: "1207838344"
+                    tablename: "Elinore"
+                    kodfilter: "1260040072"
         default:
           description: "error payload"
           content:
@@ -1645,7 +1645,7 @@ paths:
     put:
       tags:
       - "MisthFylo"
-      operationId: "95ab1910-d102-424d-b117-20fdd61f20de"
+      operationId: "ecf47f8e-ae34-4c02-8f1b-194cb5302bf2"
       parameters:
       - name: "MisthFylo"
         in: "path"
@@ -1666,8 +1666,8 @@ paths:
                 test1:
                   value:
                     descfilter: "Lorem ipsum dolor si0"
-                    tablename: "Nanine"
-                    kodfilter: "1207838344"
+                    tablename: "Elinore"
+                    kodfilter: "1260040072"
         default:
           description: "error payload"
           content:
@@ -1677,7 +1677,7 @@ paths:
     post:
       tags:
       - "MisthFylo"
-      operationId: "f9010009-665e-49ac-a708-4f73d12d4027"
+      operationId: "0372217a-0df1-4665-88d6-83731e98d605"
       parameters:
       - name: "MisthFylo"
         in: "path"
@@ -1698,8 +1698,8 @@ paths:
                 test1:
                   value:
                     descfilter: "Lorem ipsum dolor si0"
-                    tablename: "Nanine"
-                    kodfilter: "1207838344"
+                    tablename: "Elinore"
+                    kodfilter: "1260040072"
         default:
           description: "error payload"
           content:
@@ -1710,7 +1710,7 @@ paths:
     put:
       tags:
       - "MisthFyloEpidom"
-      operationId: "e455773b-70ee-4fa7-b3e9-9b71c26a51ee"
+      operationId: "b45c7d5b-4f1c-4341-8ab3-dc762f83af6e"
       parameters:
       - name: "MisthFyloEpidom"
         in: "path"
@@ -1731,8 +1731,8 @@ paths:
                 test1:
                   value:
                     descfilter: "Lorem ipsum dolor si0"
-                    tablename: "Nanine"
-                    kodfilter: "1207838344"
+                    tablename: "Elinore"
+                    kodfilter: "1260040072"
         default:
           description: "error payload"
           content:
@@ -1742,7 +1742,7 @@ paths:
     post:
       tags:
       - "MisthFyloEpidom"
-      operationId: "f47609ef-f388-431e-b030-00e6d1504e07"
+      operationId: "b26f38c3-baf3-442a-b500-d8efe5371f3d"
       parameters:
       - name: "MisthFyloEpidom"
         in: "path"
@@ -1763,8 +1763,8 @@ paths:
                 test1:
                   value:
                     descfilter: "Lorem ipsum dolor si0"
-                    tablename: "Nanine"
-                    kodfilter: "1207838344"
+                    tablename: "Elinore"
+                    kodfilter: "1260040072"
         default:
           description: "error payload"
           content:
@@ -1775,7 +1775,7 @@ paths:
     put:
       tags:
       - "MisthFyloKrat"
-      operationId: "b631b845-700a-4d06-ad5d-0f0a7f85b0e3"
+      operationId: "429b81f9-b68b-4705-b199-fd581864588d"
       parameters:
       - name: "MisthFyloKrat"
         in: "path"
@@ -1796,8 +1796,8 @@ paths:
                 test1:
                   value:
                     descfilter: "Lorem ipsum dolor si0"
-                    tablename: "Nanine"
-                    kodfilter: "1207838344"
+                    tablename: "Elinore"
+                    kodfilter: "1260040072"
         default:
           description: "error payload"
           content:
@@ -1807,7 +1807,7 @@ paths:
     post:
       tags:
       - "MisthFyloKrat"
-      operationId: "8f4e219d-6794-4cf5-948c-751347def54b"
+      operationId: "dba5e3c5-9859-4411-881d-bd40ad44d650"
       parameters:
       - name: "MisthFyloKrat"
         in: "path"
@@ -1828,8 +1828,8 @@ paths:
                 test1:
                   value:
                     descfilter: "Lorem ipsum dolor si0"
-                    tablename: "Nanine"
-                    kodfilter: "1207838344"
+                    tablename: "Elinore"
+                    kodfilter: "1260040072"
         default:
           description: "error payload"
           content:
@@ -1840,7 +1840,7 @@ paths:
     put:
       tags:
       - "MisthFyloYpal"
-      operationId: "4033f1d5-b887-47f5-81aa-b866590639e8"
+      operationId: "b55006e0-2f26-4b02-a41d-8432e2e79532"
       parameters:
       - name: "MisthFyloYpal"
         in: "path"
@@ -1861,8 +1861,8 @@ paths:
                 test1:
                   value:
                     descfilter: "Lorem ipsum dolor si0"
-                    tablename: "Nanine"
-                    kodfilter: "1207838344"
+                    tablename: "Elinore"
+                    kodfilter: "1260040072"
         default:
           description: "error payload"
           content:
@@ -1872,7 +1872,7 @@ paths:
     post:
       tags:
       - "MisthFyloYpal"
-      operationId: "2f210eb6-e1cb-455e-8d73-bd9199fdb0a7"
+      operationId: "d3b4095d-03fe-4738-b47f-f822a73a3989"
       parameters:
       - name: "MisthFyloYpal"
         in: "path"
@@ -1893,8 +1893,8 @@ paths:
                 test1:
                   value:
                     descfilter: "Lorem ipsum dolor si0"
-                    tablename: "Nanine"
-                    kodfilter: "1207838344"
+                    tablename: "Elinore"
+                    kodfilter: "1260040072"
         default:
           description: "error payload"
           content:
@@ -1905,7 +1905,7 @@ paths:
     put:
       tags:
       - "MisthReport"
-      operationId: "9516306c-f7c0-4cdb-acbe-0cf8a1a44673"
+      operationId: "c9ae9217-967f-4631-ab9b-745a6e838d96"
       parameters:
       - name: "MisthReport"
         in: "path"
@@ -1926,8 +1926,8 @@ paths:
                 test1:
                   value:
                     descfilter: "Lorem ipsum dolor si0"
-                    tablename: "Nanine"
-                    kodfilter: "1207838344"
+                    tablename: "Elinore"
+                    kodfilter: "1260040072"
         default:
           description: "error payload"
           content:
@@ -1937,7 +1937,7 @@ paths:
     post:
       tags:
       - "MisthReport"
-      operationId: "5c0d1706-d63b-4ecc-a237-cd0c46cdde6c"
+      operationId: "4e1c79c8-19f0-42bb-abd5-b48693c393c5"
       parameters:
       - name: "MisthReport"
         in: "path"
@@ -1958,8 +1958,8 @@ paths:
                 test1:
                   value:
                     descfilter: "Lorem ipsum dolor si0"
-                    tablename: "Nanine"
-                    kodfilter: "1207838344"
+                    tablename: "Elinore"
+                    kodfilter: "1260040072"
         default:
           description: "error payload"
           content:
@@ -1970,7 +1970,7 @@ paths:
     put:
       tags:
       - "MisthReportCols"
-      operationId: "866f3e73-e027-4167-a584-e0a7dd439955"
+      operationId: "fc68292b-549a-4d1f-aa50-697e95174173"
       parameters:
       - name: "MisthReportCols"
         in: "path"
@@ -1991,8 +1991,8 @@ paths:
                 test1:
                   value:
                     descfilter: "Lorem ipsum dolor si0"
-                    tablename: "Nanine"
-                    kodfilter: "1207838344"
+                    tablename: "Elinore"
+                    kodfilter: "1260040072"
         default:
           description: "error payload"
           content:
@@ -2002,7 +2002,7 @@ paths:
     post:
       tags:
       - "MisthReportCols"
-      operationId: "ed0de7fa-be75-4829-b23c-9ef272d18953"
+      operationId: "48e7a367-5140-4dd3-b7d8-5f28a958ce66"
       parameters:
       - name: "MisthReportCols"
         in: "path"
@@ -2023,8 +2023,8 @@ paths:
                 test1:
                   value:
                     descfilter: "Lorem ipsum dolor si0"
-                    tablename: "Nanine"
-                    kodfilter: "1207838344"
+                    tablename: "Elinore"
+                    kodfilter: "1260040072"
         default:
           description: "error payload"
           content:
@@ -2035,7 +2035,7 @@ paths:
     put:
       tags:
       - "MisthReportYpal"
-      operationId: "8383fcec-f04e-4b0d-b7fe-587529e9383c"
+      operationId: "4460afa7-d044-4ff0-8b2a-c619570ffbdd"
       parameters:
       - name: "MisthReportYpal"
         in: "path"
@@ -2056,8 +2056,8 @@ paths:
                 test1:
                   value:
                     descfilter: "Lorem ipsum dolor si0"
-                    tablename: "Nanine"
-                    kodfilter: "1207838344"
+                    tablename: "Elinore"
+                    kodfilter: "1260040072"
         default:
           description: "error payload"
           content:
@@ -2067,7 +2067,7 @@ paths:
     post:
       tags:
       - "MisthReportYpal"
-      operationId: "80038370-bf7b-4c52-aefe-95a29c41c4ec"
+      operationId: "51f4df7b-41ce-4176-aa8f-82a55d9b972c"
       parameters:
       - name: "MisthReportYpal"
         in: "path"
@@ -2088,8 +2088,8 @@ paths:
                 test1:
                   value:
                     descfilter: "Lorem ipsum dolor si0"
-                    tablename: "Nanine"
-                    kodfilter: "1207838344"
+                    tablename: "Elinore"
+                    kodfilter: "1260040072"
         default:
           description: "error payload"
           content:
@@ -2100,7 +2100,7 @@ paths:
     put:
       tags:
       - "MisthZpyvar"
-      operationId: "d51faf98-73a8-4471-a469-5a5b38c7e9bb"
+      operationId: "f08984ff-7de9-4d18-82da-59ff448e5b2d"
       parameters:
       - name: "MisthZpyvar"
         in: "path"
@@ -2121,8 +2121,8 @@ paths:
                 test1:
                   value:
                     descfilter: "Lorem ipsum dolor si0"
-                    tablename: "Nanine"
-                    kodfilter: "1207838344"
+                    tablename: "Elinore"
+                    kodfilter: "1260040072"
         default:
           description: "error payload"
           content:
@@ -2132,7 +2132,7 @@ paths:
     post:
       tags:
       - "MisthZpyvar"
-      operationId: "f93e25e0-1640-4407-b049-1329afebefa6"
+      operationId: "26f17fe1-9a38-4d63-bc0e-57790ad377ca"
       parameters:
       - name: "MisthZpyvar"
         in: "path"
@@ -2153,8 +2153,8 @@ paths:
                 test1:
                   value:
                     descfilter: "Lorem ipsum dolor si0"
-                    tablename: "Nanine"
-                    kodfilter: "1207838344"
+                    tablename: "Elinore"
+                    kodfilter: "1260040072"
         default:
           description: "error payload"
           content:
@@ -2165,7 +2165,7 @@ paths:
     put:
       tags:
       - "MisthYpalYvar"
-      operationId: "74a53ed7-f6bc-4aa9-b3f6-2c8741893c14"
+      operationId: "5dbfbdbe-c55a-4630-a1d3-a530408ff658"
       parameters:
       - name: "MisthYpalYvar"
         in: "path"
@@ -2186,8 +2186,8 @@ paths:
                 test1:
                   value:
                     descfilter: "Lorem ipsum dolor si0"
-                    tablename: "Nanine"
-                    kodfilter: "1207838344"
+                    tablename: "Elinore"
+                    kodfilter: "1260040072"
         default:
           description: "error payload"
           content:
@@ -2197,7 +2197,7 @@ paths:
     post:
       tags:
       - "MisthYpalYvar"
-      operationId: "203dcc31-588e-4878-ac00-a2ae3e464137"
+      operationId: "14559ff1-a0fc-4f0c-a0af-c053ff5d78b3"
       parameters:
       - name: "MisthYpalYvar"
         in: "path"
@@ -2218,8 +2218,8 @@ paths:
                 test1:
                   value:
                     descfilter: "Lorem ipsum dolor si0"
-                    tablename: "Nanine"
-                    kodfilter: "1207838344"
+                    tablename: "Elinore"
+                    kodfilter: "1260040072"
         default:
           description: "error payload"
           content:
@@ -2230,7 +2230,7 @@ paths:
     put:
       tags:
       - "MisthZpstath"
-      operationId: "67ba12e2-d88b-4613-8808-39e8d15a8ca4"
+      operationId: "a4ea4649-3bb0-400f-8bf1-16961b11a543"
       parameters:
       - name: "MisthZpstath"
         in: "path"
@@ -2251,8 +2251,8 @@ paths:
                 test1:
                   value:
                     descfilter: "Lorem ipsum dolor si0"
-                    tablename: "Nanine"
-                    kodfilter: "1207838344"
+                    tablename: "Elinore"
+                    kodfilter: "1260040072"
         default:
           description: "error payload"
           content:
@@ -2262,7 +2262,7 @@ paths:
     post:
       tags:
       - "MisthZpstath"
-      operationId: "d6ca9cdb-f3cd-47b3-926f-2b2c3b8e6d19"
+      operationId: "d1565e94-3000-4468-a42e-2ec23246a97b"
       parameters:
       - name: "MisthZpstath"
         in: "path"
@@ -2283,8 +2283,8 @@ paths:
                 test1:
                   value:
                     descfilter: "Lorem ipsum dolor si0"
-                    tablename: "Nanine"
-                    kodfilter: "1207838344"
+                    tablename: "Elinore"
+                    kodfilter: "1260040072"
         default:
           description: "error payload"
           content:
@@ -2295,7 +2295,7 @@ paths:
     put:
       tags:
       - "MisthZptitlos"
-      operationId: "f2e195e6-a840-4230-a55a-5befbc254bda"
+      operationId: "ce129a8b-2b31-4a3a-83f8-29c842a35a1f"
       parameters:
       - name: "MisthZptitlos"
         in: "path"
@@ -2316,8 +2316,8 @@ paths:
                 test1:
                   value:
                     descfilter: "Lorem ipsum dolor si0"
-                    tablename: "Nanine"
-                    kodfilter: "1207838344"
+                    tablename: "Elinore"
+                    kodfilter: "1260040072"
         default:
           description: "error payload"
           content:
@@ -2327,7 +2327,7 @@ paths:
     post:
       tags:
       - "MisthZptitlos"
-      operationId: "de019fe4-11f9-4456-a2a0-88ea21603924"
+      operationId: "c110a635-02d0-4cd2-a059-2caceb512ee7"
       parameters:
       - name: "MisthZptitlos"
         in: "path"
@@ -2348,8 +2348,8 @@ paths:
                 test1:
                   value:
                     descfilter: "Lorem ipsum dolor si0"
-                    tablename: "Nanine"
-                    kodfilter: "1207838344"
+                    tablename: "Elinore"
+                    kodfilter: "1260040072"
         default:
           description: "error payload"
           content:
@@ -2368,7 +2368,7 @@ components:
           type: "string"
       example:
         descfilter: "Lorem ipsum dolor si0"
-        tablename: "Nanine"
+        tablename: "Elinore"
     Afxfilterd:
       required:
       - "kodfilterd"
@@ -2535,30 +2535,30 @@ components:
         prn_notes3:
           type: "string"
       example:
-        prn_sign3_name: "Edin"
-        city: "Cleburne"
-        startdate: "2017-10-15"
+        prn_sign3_name: "Sib"
+        city: "Saint Mary"
+        startdate: "2039-11-07"
         prn_notes1: "0"
         prn_sign1_prosf: "Lorem ipsum dolor si0"
         prn_notes2: "0"
         eteriadesc: "Lorem ipsum dolor si0"
         prn_notes3: "0"
         doy: "Lorem ipsum dolor si0"
-        prn_sign2_name: "Deni"
+        prn_sign2_name: "Rhodie"
         maskposot: "Lorem ipsum dolor si0"
-        fax: "446-927-4848"
+        fax: "723-679-8791"
         eteria: "Lorem ipsum dolor si0"
         address: "Lorem ipsum dolor si0"
         maskposo_e: "Lorem ipsum dolor si0"
         afm: "Lorem ipsum dolor s0"
         prn_sign3_prosf: "Lorem ipsum dolor si0"
         descxrisi: "Lorem ipsum dolor si0"
-        prn_sign1_name: "Hyacinthe"
+        prn_sign1_name: "Janeva"
         maskdate_e: "Lorem ipsum dolor si0"
-        enddate: "2063-10-15"
+        enddate: "1950-11-07"
         round: 0
         maskposo: "Lorem ipsum dolor si0"
-        phone: "426-256-8772"
+        phone: "996-241-1983"
         maskdate: "Lorem ipsum dolor si0"
         tk: "Lorem ipsum do0"
         prn_logo1: "Lorem ipsum dolor si0"
@@ -2607,7 +2607,7 @@ components:
         aa:
           type: "integer"
       example:
-        datefinal: "2008-10-15"
+        datefinal: "1913-11-07"
         aa: "0"
         descfinal: "Lorem ipsum dolor si0"
         title: "0"
@@ -2744,13 +2744,13 @@ components:
         newexeldate:
           type: "string"
       example:
-        rehireddate: "1998-10-15"
+        rehireddate: "2042-11-07"
         bathmos: "0"
-        birthdate: "2012-10-15"
+        birthdate: "2091-11-07"
         mitroo: "Lorem ipsum dolor s0"
-        homephone: "815-558-7391"
-        city: "Grand Mara"
-        intphone: "782-797-2839"
+        homephone: "346-936-1458"
+        city: "Grantsvill"
+        intphone: "327-218-4192"
         kodoikog: "L0"
         klimakio: 0
         kodtitlos: "L0"
@@ -2758,30 +2758,30 @@ components:
         spouse: "Lorem ipsum dolor si0"
         doy: "Lorem ipsum dolor si0"
         kodtmima: "L0"
-        termdate: "2052-10-15"
-        mobilphone: "474-452-9574"
+        termdate: "2036-11-07"
+        mobilphone: "893-325-9183"
         bank: "Lorem ipsum dolor si0"
-        surname: "Tabitha"
-        mothername: "Jelene"
-        email: "Larine@dummy.com"
+        surname: "Biddy"
+        mothername: "Elfrida"
+        email: "Roselin@dummy.com"
         klados: "Lorem ips0"
         area: "Lorem ipsum dolor si0"
         kodtamio: "L0"
-        newexeldate: "2018-10-15"
+        newexeldate: "1940-11-07"
         address: "Lorem ipsum dolor si0"
         jobtitle: "Lorem ipsum dolor si0"
-        hireddate: "1951-10-15"
+        hireddate: "1951-11-07"
         sex: "0"
         afm: "Lorem ips0"
         kodidikot: "L0"
         termreason: "Lorem ipsum dolor si0"
         kodthesi: "L0"
         adt: "Lorem ips0"
-        fathername: "Petronella"
-        exeldate: "2061-10-15"
+        fathername: "Tami"
+        exeldate: "1961-11-07"
         tk: "Lorem ips0"
-        jobphone: "282-829-1984"
-        name: "Atlante"
+        jobphone: "969-932-6417"
+        name: "Roselia"
         bankno: "Lorem ipsum dolor si0"
         prostmeli: 0
     MisthFinalYpal:
@@ -2793,7 +2793,7 @@ components:
         plirdate:
           type: "string"
       example:
-        plirdate: "1903-10-15"
+        plirdate: "2089-11-07"
     MisthZpepidom:
       required:
       - "kodxrisi"
@@ -2866,7 +2866,7 @@ components:
       example:
         desckratapod: "Lorem ipsum dolor si0"
         kodxrisi: "Lor0"
-        apoddate: "1938-10-15"
+        apoddate: "1918-11-07"
     MisthFinalYpalKrat:
       required:
       - "kodfinal"

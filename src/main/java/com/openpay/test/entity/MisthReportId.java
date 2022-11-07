@@ -20,9 +20,9 @@ import java.io.Serializable;
 import javax.persistence.Column;
 import javax.persistence.Embeddable;
 
-/** embeddable class Id for MisthReport. generated on 10/15/2021 from a schema. */
+/** embeddable class Id for MisthReport. generated on 11/07/2022 from a schema. */
 public class MisthReportId implements Serializable {
-  private static final long serialVersionUID = 163436646557073208L;
+  private static final long serialVersionUID = 166786182238751721L;
 
   @Column(name = "kodxrisi")
   private java.lang.String kodxrisi;

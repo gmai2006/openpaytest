@@ -27,7 +27,7 @@ import javax.persistence.Basic;
 @IdClass(AfxtablefieldsId.class)
 @Table(name = "afxtablefields")
 public class Afxtablefields implements Serializable {
-  private static final long serialVersionUID = 163436646515988520L;
+  private static final long serialVersionUID = 166786182209210324L;
 
   /** Description: fieldname. */
   @javax.validation.constraints.NotNull

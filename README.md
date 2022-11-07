@@ -1,30 +1,26 @@
-# Auto-generated OpenPay application from openpay db schema
+# Auto-generated openpay application from openpay db schema
+
+This application is JEE in the backend using H2 in memory data for testing.  The generated code comes with a docker
+build file for generating a docker image
+
 ## Instruction
 All instructions should be run in a terminal
 
 ### Clone the project
 ```git clone https://github.com/gmai2006/openpaytest.git```
 
-### Run the gradle build to download all dependencies and setup your eclipse .classpath
-```gradle spotlessApply build```
+### Format the source code and build the openpaytest
+```gradle spotlessApply build copyReact buildAll```
 
-### Optional integration test
-```gradle IntegrationTest```
+### Create a Docker image that contains Wildfly and the openpaytest WAR file.  You must have Docker installed
+```sudo docker build --tag=openpaytest .```
 
-### Run the application
-cd ui
-npm install
-npm start
+### Run the docker image
+```sudo docker run -p 8080:8080 -p 9990:9990 -it openpaytest```
 
-Generated UI components
-![An overview](openpay1.png?raw=true "Title")
+### View the generate application
+```http://127.0.0.1:8080/openpaytest/```
 
-Openpay entity relationship diagram - generated from the DB schema
-![Openpay entity relationship model](openpay2.png?raw=true "Title")
-
-A tabular view with test data of a table in openpay DB.  
-![A view of a table in openpay](openpay3.png?raw=true "Title")
-
-
-  
-
+### Load data from Excel into the DB
+```Initially, the database is empty.  To load the test data from Excel into DB run
+http://127.0.0.1:8080/openpaytest/rest/admin/loadata```
