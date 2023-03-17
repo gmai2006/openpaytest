@@ -63,7 +63,7 @@ public class AfxptoseisHandlerTestIt {
 
   @Test
   public void testSelect() throws IOException {
-    final File tempFile = createRecordInputStreamFromJsonFile(inputFile, Charset.defaultCharset());
+    final File tempFile = new File("./src/test/resources/Afxptoseis.csv");
     final InputStream inputStream = new BufferedInputStream(new FileInputStream(tempFile));
     int count = handler.process(inputStream);
     String json = FileUtils.readFileFromResource2String(inputFile, Charset.defaultCharset());
@@ -77,27 +77,5 @@ public class AfxptoseisHandlerTestIt {
     inputStream.close();
     json = null;
     records = null;
-  }
-
-  /**
-   * Construct a delimiter file from a json file.
-   *
-   * @param inputFile the json file.
-   * @param charset default charset.
-   * @return
-   */
-  private File createRecordInputStreamFromJsonFile(String inputFile, Charset charset) {
-    try {
-      final File tempFile = File.createTempFile(inputFile, ".txt");
-      tempFile.deleteOnExit();
-      String json = FileUtils.readFileFromResource2String(inputFile, Charset.defaultCharset());
-      JSONArray docs = new JSONArray(json);
-      String csv = CDL.toString(docs);
-      org.apache.commons.io.FileUtils.writeStringToFile(tempFile, csv, Charset.defaultCharset());
-      return tempFile;
-    } catch (IOException ex) {
-      ex.printStackTrace();
-      return null;
-    }
   }
 }

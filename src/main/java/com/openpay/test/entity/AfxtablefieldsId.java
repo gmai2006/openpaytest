@@ -20,9 +20,9 @@ import java.io.Serializable;
 import javax.persistence.Column;
 import javax.persistence.Embeddable;
 
-/** embeddable class Id for Afxtablefields. generated on 11/07/2022 from a schema. */
+/** embeddable class Id for Afxtablefields. generated on 03/16/2023 from a schema. */
 public class AfxtablefieldsId implements Serializable {
-  private static final long serialVersionUID = 166786182208469031L;
+  private static final long serialVersionUID = 167901651874954530L;
 
   @Column(name = "fieldname")
   private java.lang.String fieldname;

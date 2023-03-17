@@ -20,9 +20,9 @@ import java.io.Serializable;
 import javax.persistence.Column;
 import javax.persistence.Embeddable;
 
-/** embeddable class Id for MisthFinalYpal. generated on 11/07/2022 from a schema. */
+/** embeddable class Id for MisthFinalYpal. generated on 03/16/2023 from a schema. */
 public class MisthFinalYpalId implements Serializable {
-  private static final long serialVersionUID = 166786182224519198L;
+  private static final long serialVersionUID = 167901651891370137L;
 
   @Column(name = "kodfinal")
   private java.lang.Long kodfinal;

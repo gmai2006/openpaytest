@@ -25,7 +25,7 @@ import javax.persistence.Basic;
 @Entity
 @Table(name = "afxinfo")
 public class Afxinfo implements Serializable {
-  private static final long serialVersionUID = 166786182205930958L;
+  private static final long serialVersionUID = 167901651872562636L;
 
   /** Description: default_id. */
   @javax.validation.constraints.NotNull

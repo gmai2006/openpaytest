@@ -25,7 +25,7 @@ import javax.persistence.Basic;
 @Entity
 @Table(name = "misth_kratapod")
 public class MisthKratapod implements Serializable {
-  private static final long serialVersionUID = 166786182229655226L;
+  private static final long serialVersionUID = 167901651896675716L;
 
   /** Description: kodkratapod. */
   @javax.validation.constraints.NotNull

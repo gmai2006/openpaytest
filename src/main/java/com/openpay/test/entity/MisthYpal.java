@@ -27,7 +27,7 @@ import javax.persistence.Basic;
 @IdClass(MisthYpalId.class)
 @Table(name = "misth_ypal")
 public class MisthYpal implements Serializable {
-  private static final long serialVersionUID = 166786182222234838L;
+  private static final long serialVersionUID = 16790165188927032L;
 
   /** Description: kodxrisi. */
   @javax.validation.constraints.NotNull

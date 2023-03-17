@@ -27,7 +27,7 @@ import javax.persistence.Basic;
 @IdClass(MisthFinalId.class)
 @Table(name = "misth_final")
 public class MisthFinal implements Serializable {
-  private static final long serialVersionUID = 166786182215341651L;
+  private static final long serialVersionUID = 167901651882241833L;
 
   /** Description: kodfinal. */
   @javax.validation.constraints.NotNull

@@ -25,7 +25,7 @@ import javax.persistence.Basic;
 @Entity
 @Table(name = "afxoperators")
 public class Afxoperators implements Serializable {
-  private static final long serialVersionUID = 166786182206988235L;
+  private static final long serialVersionUID = 167901651873485072L;
 
   /** Description: operatorname. */
   @javax.validation.constraints.NotNull

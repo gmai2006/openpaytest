@@ -34,6 +34,8 @@ import javax.inject.Inject;
 import javax.inject.Named;
 import com.openpay.test.dao.JpaDao;
 import com.openpay.test.utils.DelimiterParser;
+import java.util.function.Predicate;
+import java.util.stream.Collectors;
 
 import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVParser;
@@ -65,6 +67,15 @@ public abstract class DelimiterFileHandler<E> implements RecordTypeHandler {
         final Map<String, String> map = record.toMap();
 
         if (map.size() != headers.size()) continue;
+
+        final List<String> filtered =
+            map.values().stream().map(String::trim).collect(Collectors.toList());
+
+        final Predicate<String> empty = String::isEmpty;
+        final List<String> values =
+            filtered.stream().filter(empty.negate()).collect(Collectors.toList());
+
+        if (values.size() != headers.size()) continue;
 
         final E e = parseLine(headers, new ArrayList<>(map.values()));
         items.add(e);

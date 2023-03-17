@@ -25,7 +25,7 @@ import javax.persistence.Basic;
 @Entity
 @Table(name = "afxtranslate")
 public class Afxtranslate implements Serializable {
-  private static final long serialVersionUID = 166786182209936573L;
+  private static final long serialVersionUID = 167901651876549968L;
 
   /** Description: id. */
   @javax.validation.constraints.NotNull

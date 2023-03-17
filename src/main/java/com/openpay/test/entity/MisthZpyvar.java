@@ -27,7 +27,7 @@ import javax.persistence.Basic;
 @IdClass(MisthZpyvarId.class)
 @Table(name = "misth_zpyvar")
 public class MisthZpyvar implements Serializable {
-  private static final long serialVersionUID = 166786182243342891L;
+  private static final long serialVersionUID = 167901651908574444L;
 
   /** Description: kodyvar. */
   @javax.validation.constraints.NotNull
