@@ -20,7 +20,7 @@ sql/out/
 **/tmp/*
 
 # dependencies
-/node_modules
+node_modules
 
 # IDEs and editors
 /.idea
@@ -40,7 +40,6 @@ testem.log
 /typings
 
 # e2e
-/e2e/*.js
 /e2e/*.map
 
 #System Files
