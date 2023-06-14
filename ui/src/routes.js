@@ -37,10 +37,11 @@ import MisthZpstath from './views/tables/MisthZpstath';
 import MisthZptitlos from './views/tables/MisthZptitlos';
 
 const Dashboard = React.lazy(() => import('./views/dashboard/Dashboard'));
-
+const Form = React.lazy(() => import('./views/form/Form'));
 const routes = [
   { path: '/', exact: true, name: 'Home' },
   { path: '/dashboard', name: 'Dashboard', element: Dashboard },
+  { path: '/form', name: 'Form', element: Form },
   { path: '/tables/Afxfilter', name: 'Afxfilter', element: Afxfilter },
   { path: '/tables/Afxfilterd', name: 'Afxfilterd', element: Afxfilterd },
   { path: '/tables/Afxinfo', name: 'Afxinfo', element: Afxinfo },
